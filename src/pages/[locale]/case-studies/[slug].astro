@@ -1,0 +1,102 @@
+---
+import { getCollection, getEntry, render } from 'astro:content';
+import PageLayout from '../../../layouts/PageLayout.astro';
+import { isLocale, type Locale } from '../../../lib/site';
+import { withLocalePrefix } from '../../../lib/routing';
+import HeroSection from '../../../components/HeroSection.astro';
+import CTAButton from '../../../components/CTAButton.astro';
+
+export async function getStaticPaths() {
+  const entries = await getCollection('caseStudies');
+
+  return entries
+    .filter((entry) => {
+      const [locale, section, slug] = entry.id.split('/');
+      return isLocale(locale) && section === 'case-studies' && slug !== 'index';
+    })
+    .map((entry) => {
+      const [locale, , slug] = entry.id.split('/');
+      return {
+        params: {
+          locale,
+          slug
+        }
+      };
+    });
+}
+
+const localeParam = Astro.params.locale;
+const slugParam = Astro.params.slug;
+
+if (!localeParam || !slugParam || !isLocale(localeParam)) {
+  throw new Error('Invalid case study route.');
+}
+
+const locale: Locale = localeParam;
+const entry = await getEntry('caseStudies', `${locale}/case-studies/${slugParam}`);
+
+if (!entry) {
+  throw new Error(`Missing case study content: ${locale}/${slugParam}`);
+}
+
+const { Content } = await render(entry);
+
+const localizedCaseStudies = (await getCollection('caseStudies'))
+  .filter((item) => item.id.startsWith(`${locale}/case-studies/`) && !item.id.endsWith('/index'))
+  .sort((a, b) => a.id.localeCompare(b.id));
+
+const currentIndex = localizedCaseStudies.findIndex((item) => item.id === entry.id);
+const previousEntry = currentIndex > 0 ? localizedCaseStudies[currentIndex - 1] : undefined;
+const nextEntry = currentIndex < localizedCaseStudies.length - 1 ? localizedCaseStudies[currentIndex + 1] : undefined;
+
+const caseMeta = locale === 'pt-br'
+  ? {
+      eyebrow: 'Estudo de Caso',
+      subtitle: 'Contexto, desafios, arquitetura e resultados',
+      back: 'Voltar para lista',
+      prev: 'Estudo anterior',
+      next: 'Proximo estudo'
+    }
+  : {
+      eyebrow: 'Case Study',
+      subtitle: 'Context, challenges, architecture and outcomes',
+      back: 'Back to list',
+      prev: 'Previous case',
+      next: 'Next case'
+    };
+---
+
+<PageLayout title={entry.data.title} description={entry.data.description} locale={locale} pathname={Astro.url.pathname}>
+  <HeroSection
+    eyebrow={caseMeta.eyebrow}
+    title={entry.data.title}
+    subtitle={caseMeta.subtitle}
+    description={entry.data.description}
+  >
+    <Fragment slot="actions">
+      <CTAButton href={withLocalePrefix(locale, '/case-studies')} label={caseMeta.back} variant="portfolio" />
+    </Fragment>
+  </HeroSection>
+
+  <section class="case-study-content">
+    <Content />
+  </section>
+
+  <nav aria-label="Case studies navigation" class="mt-12 flex flex-wrap gap-3 border-t border-[var(--color-border)] pt-6">
+    {previousEntry ? (
+      <CTAButton
+        href={withLocalePrefix(locale, `/case-studies/${previousEntry.id.split('/').at(-1) ?? ''}`)}
+        label={caseMeta.prev}
+        variant="portfolio"
+      />
+    ) : null}
+
+    {nextEntry ? (
+      <CTAButton
+        href={withLocalePrefix(locale, `/case-studies/${nextEntry.id.split('/').at(-1) ?? ''}`)}
+        label={caseMeta.next}
+        variant="portfolio"
+      />
+    ) : null}
+  </nav>
+</PageLayout>

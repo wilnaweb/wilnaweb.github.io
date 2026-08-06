@@ -7,13 +7,10 @@ status: approved
 lastUpdated: 2026-08-05
 ---
 
-# Yduqs – Marketing Asset Automation
+Scaling Marketing Content with Adobe Firefly, AEM Assets and Generative AI
 
-## Scaling Marketing Content with Adobe Firefly, AEM Assets and Generative AI
 
----
-
-# Overview
+## Overview
 
 Yduqs, one of Brazil's largest higher education groups, manages multiple educational institutions and continuously launches marketing campaigns for enrollment, re-enrollment and promotional initiatives.
 
@@ -21,17 +18,20 @@ Each campaign required the production of numerous communication assets with smal
 
 The objective of the project was to automate this process using **Adobe Experience Manager Assets**, **Adobe Firefly** and **Photoshop APIs**, significantly reducing manual effort while maintaining brand consistency across all generated materials.
 
----
 
-# Client
+## Client
 
 **Yduqs**
 
 Industry: Education
 
----
 
-# My Role
+## Company
+
+**Netbiis**
+
+
+## My Role
 
 - Software Architect
 - Tech Lead
@@ -39,9 +39,8 @@ Industry: Education
 
 I was responsible for the solution architecture, requirements analysis, technical leadership and overall engineering coordination throughout the project.
 
----
 
-# Business Challenge
+## Business Challenge
 
 The marketing team maintained master communication templates that needed to be adapted into dozens or even hundreds of campaign variations.
 
@@ -57,9 +56,8 @@ Typical changes included:
 
 Producing these variations manually required considerable time and limited the speed at which new campaigns could be launched.
 
----
 
-# Solution
+## Solution
 
 A solution was designed combining **Adobe Experience Manager Assets**, **Adobe Firefly** and **Adobe Photoshop APIs**.
 
@@ -69,11 +67,10 @@ The platform automatically generates all required communication variations while
 
 By integrating Generative AI into the content production workflow, repetitive editing tasks became automated, allowing marketing teams to focus on campaign strategy rather than manual asset production.
 
----
 
-# Technologies
+## Technologies
 
-## Adobe
+### Adobe
 
 - Adobe Experience Manager Assets
 - Adobe Firefly
@@ -81,16 +78,15 @@ By integrating Generative AI into the content production workflow, repetitive ed
 - Generative AI
 - Asset Management
 
-## Engineering
+### Engineering
 
 - REST APIs
 - Java
 - Workflow Automation
 - Integration Services
 
----
 
-# Architecture Responsibilities
+## Architecture Responsibilities
 
 My responsibilities included:
 
@@ -103,9 +99,8 @@ My responsibilities included:
 - Technical Coordination
 - Engineering Standards
 
----
 
-# Key Challenges
+## Key Challenges
 
 One of the main challenges was designing a workflow capable of generating a large number of communication assets while preserving visual consistency across different educational institutions.
 
@@ -113,9 +108,8 @@ Another challenge involved integrating Adobe Firefly and Photoshop APIs into an 
 
 The solution also needed to scale without increasing operational complexity.
 
----
 
-# Results
+## Results
 
 The project delivered:
 
@@ -129,17 +123,15 @@ The project delivered:
 
 The platform transformed a repetitive manual process into an automated workflow powered by Adobe technologies and Generative AI.
 
----
 
-# Engineering Takeaways
+## Engineering Takeaways
 
 Artificial Intelligence delivers its greatest value when integrated into well-designed business processes.
 
 Rather than replacing creative work, Generative AI became an accelerator for marketing operations, reducing repetitive tasks while preserving governance, quality and brand consistency.
 
----
 
-# Technologies Related
+## Technologies Related
 
 - Adobe Firefly
 - Adobe Experience Manager Assets
@@ -149,29 +141,23 @@ Rather than replacing creative work, Generative AI became an accelerator for mar
 - Workflow Automation
 - Software Architecture
 
----
 
-# Related Content
+## Related Content
 
-## Related Expertise
+### Related Expertise
 
-Adobe Experience Cloud
+- Adobe Experience Cloud
+- Artificial Intelligence
+- Digital Experience Platforms
+- Software Architecture
 
-Artificial Intelligence
 
-Digital Experience Platforms
+### Related Articles
 
-Software Architecture
+- [Are We Thinking About AI in Software Projects the Wrong Way?](../writing/#are-we-thinking-about-ai-in-software-projects-the-wrong-way)
+- [Adobe Edge Delivery Services: A Technical Perspective for Developers](../writing/#adobe-edge-delivery-services-a-technical-perspective-for-developers)
 
----
-
-## Related Articles
-
-- Are We Thinking About AI in Software Projects the Wrong Way?
-- Adobe Edge Delivery Services: A Technical Perspective for Developers
-
----
 
 ## Next Case Study
 
-→ Cogna – Edge Delivery Platform
+[Cogna – Edge Delivery Platform](../cogna-edge-delivery/)

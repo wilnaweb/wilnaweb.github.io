@@ -1,0 +1,41 @@
+---
+import type { Locale } from '../lib/site';
+import { replaceLocaleInPath } from '../lib/routing';
+
+interface Props {
+  locale: Locale;
+  pathname: string;
+}
+
+const { locale, pathname } = Astro.props;
+
+const labels: Record<Locale, string> = {
+  en: 'English',
+  'pt-br': 'Portugues'
+};
+---
+
+<nav aria-label="Language" class="inline-flex items-center gap-1 rounded-full border border-[var(--color-border)] bg-[var(--color-surface)] p-1 text-xs font-medium">
+  <a
+    href={replaceLocaleInPath(pathname, 'en')}
+    class:list={[
+      'rounded-full px-3 py-1 transition-colors duration-200',
+      locale === 'en' ? 'bg-[var(--color-accent)] text-white' : 'text-[var(--color-text-secondary)] hover:text-[var(--color-text-primary)]'
+    ]}
+    hreflang="en"
+    lang="en"
+  >
+    {labels.en}
+  </a>
+  <a
+    href={replaceLocaleInPath(pathname, 'pt-br')}
+    class:list={[
+      'rounded-full px-3 py-1 transition-colors duration-200',
+      locale === 'pt-br' ? 'bg-[var(--color-accent)] text-white' : 'text-[var(--color-text-secondary)] hover:text-[var(--color-text-primary)]'
+    ]}
+    hreflang="pt-BR"
+    lang="pt-BR"
+  >
+    {labels['pt-br']}
+  </a>
+</nav>

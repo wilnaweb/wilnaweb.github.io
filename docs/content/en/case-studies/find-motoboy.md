@@ -7,13 +7,10 @@ status: approved
 lastUpdated: 2026-08-05
 ---
 
-# Find Motoboy
+Building One of Brazil's First On-Demand Delivery Platforms
 
-## Building One of Brazil's First On-Demand Delivery Platforms
 
----
-
-# Overview
+## Overview
 
 Years before the rapid expansion of app-based delivery services in Brazil, Find Motoboy introduced an innovative platform connecting customers with professional motorcycle couriers through a digital marketplace.
 
@@ -21,29 +18,25 @@ The project aimed to simplify urban deliveries by allowing individuals and busin
 
 While the mobile applications were developed by another company, my team was responsible for the entire backend ecosystem that powered the platform.
 
----
 
-# Client
+## Client
 
 **Find Motoboy**
 
 Industry: Logistics / Mobility
 
----
 
-# Company
+## Company
 
-**Gasoline Digital**
+**Gasoline.Digital**
 
----
 
-# Period
+## Period
 
 2014 – 2016
 
----
 
-# My Role
+## My Role
 
 - Software Architect
 - Tech Lead
@@ -51,9 +44,8 @@ Industry: Logistics / Mobility
 
 I led the architecture and development of the platform's backend ecosystem, including operational systems, APIs and administrative tools.
 
----
 
-# Business Challenge
+## Business Challenge
 
 The platform needed to connect customers, motorcycle couriers and operational teams through a reliable digital ecosystem.
 
@@ -69,9 +61,8 @@ The solution had to support:
 
 Since the platform depended on real-time logistics operations, reliability and system availability were essential.
 
----
 
-# Solution
+## Solution
 
 A complete backend platform was designed and developed to support the company's logistics operations.
 
@@ -88,17 +79,16 @@ The solution included:
 
 The architecture separated operational management from the mobile experience, allowing both platforms to evolve independently.
 
----
 
-# Technologies
+## Technologies
 
-## Platform
+### Platform
 
 - Microsoft .NET
 - C#
 - SQL Server
 
-## Engineering
+### Engineering
 
 - REST APIs
 - Web Services
@@ -106,9 +96,8 @@ The architecture separated operational management from the mobile experience, al
 - Git
 - Application Monitoring
 
----
 
-# Architecture Responsibilities
+## Architecture Responsibilities
 
 My responsibilities included:
 
@@ -122,9 +111,8 @@ My responsibilities included:
 - Development Coordination
 - Infrastructure Management
 
----
 
-# Key Challenges
+## Key Challenges
 
 One of the biggest challenges was designing a backend platform capable of supporting logistics operations while remaining flexible enough to integrate with independently developed mobile applications.
 
@@ -132,9 +120,8 @@ The solution also needed to provide operational visibility for administrators wh
 
 Scalability and maintainability were important considerations from the beginning due to the platform's growth expectations.
 
----
 
-# Results
+## Results
 
 The project delivered:
 
@@ -148,17 +135,15 @@ The project delivered:
 
 Although the initiative was eventually overtaken by larger competitors entering the market, the project represented an early implementation of the on-demand delivery model that would later become widespread in Brazil.
 
----
 
-# Engineering Takeaways
+## Engineering Takeaways
 
 Building digital platforms often means anticipating market trends before they become mainstream.
 
 Find Motoboy demonstrated how a well-designed backend architecture can support complex operational workflows while enabling multiple client applications to evolve independently.
 
----
 
-# Technologies Related
+## Technologies Related
 
 - .NET
 - C#
@@ -168,22 +153,17 @@ Find Motoboy demonstrated how a well-designed backend architecture can support c
 - Cloud Infrastructure
 - Technical Leadership
 
----
 
-# Related Content
+## Related Content
 
-## Related Expertise
+### Related Expertise
 
-Software Architecture
+- Software Architecture
+- Backend Engineering
+- Cloud Engineering
+- Technical Leadership
 
-Backend Engineering
-
-Cloud Engineering
-
-Technical Leadership
-
----
 
 ## Next Case Study
 
-→ Back to Case Studies
+[Back to Case Studies](../)

@@ -5,20 +5,34 @@ slug: /contact
 description: Entre em contato para conversar sobre Arquitetura de Software, Adobe Experience Cloud e Plataformas Digitais.
 language: pt-br
 status: approved
-lastUpdated: 2026-08-05
+lastUpdated: 2026-08-06
+heroEyebrow: Contato
+heroSubtitle: Canais para colaboração, consultoria técnica e conversas de arquitetura.
+heroDescription: Escolha o canal mais adequado para seu contexto, de networking profissional a trocas técnicas diretas.
+quickLinks:
+  - title: LinkedIn
+    description: Rede profissional para conexões, colaborações e discussões sobre arquitetura.
+    href: https://www.linkedin.com/in/wilsoncavalcante/
+    ctaLabel: Conectar no LinkedIn
+    target: _blank
+  - title: GitHub
+    description: Repositórios, experimentos técnicos e exemplos de implementação.
+    href: https://github.com/wilnaweb
+    ctaLabel: Explorar repositórios
+    target: _blank
+  - title: Medium
+    description: Conteúdo editorial sobre arquitetura de software e Adobe Experience Cloud.
+    href: https://medium.com/@wilsoncavalcante
+    ctaLabel: Ler no Medium
+    target: _blank
 ---
 
-# Contato
+<div class="page-intro-callout">
+<p class="page-intro-eyebrow">Comece por aqui</p>
+<p>Se o contexto do seu projeto se conecta com os tópicos abaixo, escolha o canal mais adequado e vamos conversar.</p>
+</div>
 
-## Vamos construir plataformas digitais melhores.
-
-Se você está planejando implantar uma plataforma baseada em Adobe Experience Cloud, modernizar um ecossistema digital existente ou precisa de apoio em arquitetura de software e liderança técnica, será um prazer conversar.
-
-Também gosto de trocar experiências sobre engenharia de software, arquitetura e novas tecnologias.
-
----
-
-# Áreas em que Posso Contribuir
+## Áreas em que Posso Contribuir
 
 - Arquitetura de Software
 - Adobe Experience Manager (AEM)
@@ -27,7 +41,7 @@ Também gosto de trocar experiências sobre engenharia de software, arquitetura 
 - Adobe Edge Delivery Services
 - Adobe Experience Manager Assets
 - Plataformas de Experiência Digital (DXP)
-- Enterprise Content Management
+- Gestão de Conteúdo Corporativo
 - Arquitetura em Nuvem
 - Liderança Técnica
 - Desenho de Soluções
@@ -35,61 +49,64 @@ Também gosto de trocar experiências sobre engenharia de software, arquitetura 
 - DevOps e CI/CD
 - Inteligência Artificial aplicada à Engenharia de Software
 
----
 
-# Redes Profissionais
+## Redes Profissionais
 
-## LinkedIn
+<div class="contact-profiles-grid">
+
+<article class="contact-profile-card">
+
+### E-mail
+
+Canal direto e mais rápido para conversar sobre projetos e consultoria técnica.
+
+<p class="contact-profile-cta"><a href="mailto:hello@wil.dev.br">hello@wil.dev.br</a></p>
+
+</article>
+
+<article class="contact-profile-card">
+
+### LinkedIn
 
 A principal forma de acompanhar minha trajetória profissional e entrar em contato.
 
-**URL**
+<p class="contact-profile-cta"><a href="https://www.linkedin.com/in/wilsoncavalcante/" target="_blank" rel="noreferrer">Conectar no LinkedIn</a></p>
 
-https://www.linkedin.com/in/wilsoncavalcante/
+</article>
 
----
+<article class="contact-profile-card">
 
-## GitHub
+### GitHub
 
 Projetos Open Source, experimentos, estudos e repositórios pessoais.
 
-**URL**
+<p class="contact-profile-cta"><a href="https://github.com/wilnaweb" target="_blank" rel="noreferrer">Explorar repositórios no GitHub</a></p>
 
-https://github.com/wilnaweb
+</article>
 
----
+<article class="contact-profile-card">
 
-## Gist
+### Gist
 
 Coleção de scripts, snippets e pequenos utilitários utilizados no dia a dia.
 
-**URL**
+<p class="contact-profile-cta"><a href="https://gist.github.com/wilnaweb" target="_blank" rel="noreferrer">Ver snippets no Gist</a></p>
 
-https://gist.github.com/wilnaweb
+</article>
 
----
+<article class="contact-profile-card">
 
-## Medium
+### Medium
 
 Artigos técnicos sobre Adobe Experience Cloud, Arquitetura de Software, Engenharia de Software e Inteligência Artificial.
 
-**URL**
+<p class="contact-profile-cta"><a href="https://medium.com/@wilsoncavalcante" target="_blank" rel="noreferrer">Ler artigos no Medium</a></p>
 
-https://medium.com/@wilsoncavalcante
+</article>
 
----
+</div>
 
-# Domínios
-
-Este site estará disponível através dos seguintes domínios:
-
-- https://wil.dev.br
-- https://wilson.dev.br
-- https://wilnaweb.com
-
----
-
-# Vamos Conversar
+## Vamos Conversar
 
 Estou sempre aberto para conversar sobre:
 
@@ -104,18 +121,16 @@ Estou sempre aberto para conversar sobre:
 
 Seja para discutir uma arquitetura, trocar experiências, colaborar em um projeto ou simplesmente conversar sobre tecnologia, sinta-se à vontade para entrar em contato.
 
----
 
-# Tempo de Resposta
+## Tempo de Resposta
 
 Procuro responder contatos profissionais em até alguns dias úteis.
 
----
 
-# Obrigado pela Visita
+## Obrigado pela Visita
 
 Obrigado por visitar o **WIL.DEV**.
 
-Espero que os conteúdos compartilhados aqui — desde estudos de caso até artigos técnicos — ajudem a demonstrar minha forma de trabalhar, pensar arquitetura e construir software.
+Espero que os conteúdos compartilhados aqui, desde estudos de caso até artigos técnicos, ajudem a demonstrar minha forma de trabalhar, pensar arquitetura e construir software.
 
 Será um prazer conversar com você.

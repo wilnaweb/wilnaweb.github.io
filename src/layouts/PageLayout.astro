@@ -1,0 +1,28 @@
+---
+import type { Locale } from '../lib/site';
+import Layout from './Layout.astro';
+import SiteFooter from '../components/SiteFooter.astro';
+import SiteHeader from '../components/SiteHeader.astro';
+
+interface Props {
+  title: string;
+  description: string;
+  locale: Locale;
+  pathname: string;
+}
+
+const { title, description, locale, pathname } = Astro.props;
+const isHome = pathname === '/en/' || pathname === '/pt-br/';
+---
+
+<Layout title={title} description={description} locale={locale} pathname={pathname}>
+  <div class="mx-auto w-full max-w-[1200px]">
+    <SiteHeader locale={locale} pathname={pathname} />
+
+    <article class:list={['content-shell', isHome && 'content-shell-home']}>
+      <slot />
+    </article>
+
+    <SiteFooter locale={locale} pathname={pathname} />
+  </div>
+</Layout>

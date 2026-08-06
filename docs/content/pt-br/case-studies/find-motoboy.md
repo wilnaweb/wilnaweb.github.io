@@ -7,13 +7,10 @@ status: approved
 lastUpdated: 2026-08-05
 ---
 
-# Find Motoboy
+Construindo uma das primeiras plataformas brasileiras de entregas sob demanda
 
-## Construindo uma das primeiras plataformas brasileiras de entregas sob demanda
 
----
-
-# Visão Geral
+## Visão Geral
 
 Antes da popularização dos aplicativos de entrega no Brasil, o **Find Motoboy** surgiu com a proposta de conectar pessoas e empresas a motoboys através de uma plataforma digital.
 
@@ -21,29 +18,25 @@ O serviço permitia solicitar a retirada de documentos ou encomendas em um ender
 
 Enquanto os aplicativos mobile eram desenvolvidos por outra empresa, minha equipe foi responsável por toda a plataforma que sustentava a operação.
 
----
 
-# Cliente
+## Cliente
 
 **Find Motoboy**
 
 **Segmento:** Logística
 
----
 
-# Empresa
+## Empresa
 
-**Gasoline Digital**
+**Gasoline.Digital**
 
----
 
-# Período
+## Período
 
 **2014 – 2016**
 
----
 
-# Minha Atuação
+## Minha Atuação
 
 - Arquiteto de Software
 - Tech Lead
@@ -53,9 +46,8 @@ Fui responsável pela arquitetura da solução, desenvolvimento da plataforma ba
 
 Também acompanhei a gestão tecnológica da infraestrutura em nuvem e dos bancos de dados da solução.
 
----
 
-# Desafio de Negócio
+## Desafio de Negócio
 
 O projeto precisava conectar clientes, motoboys e equipe operacional em uma única plataforma integrada.
 
@@ -71,9 +63,8 @@ Entre os principais desafios estavam:
 
 A arquitetura precisava suportar uma operação em tempo real, garantindo disponibilidade e confiabilidade.
 
----
 
-# Solução
+## Solução
 
 Foi desenvolvida uma plataforma completa para gerenciamento da operação logística.
 
@@ -91,27 +82,25 @@ A solução contemplava:
 
 A separação entre aplicativos móveis e backend permitiu que cada componente evoluísse de forma independente, mantendo uma arquitetura modular e preparada para crescimento.
 
----
 
-# Tecnologias
+## Tecnologias
 
-## Plataforma
+### Plataforma
 
 - Microsoft .NET
 - C#
 - Microsoft SQL Server
 
-## Engenharia
+### Engenharia
 
 - REST APIs
 - Web Services
-- Cloud Computing
+- Computação em Nuvem
 - Git
 - Monitoramento de Aplicações
 
----
 
-# Responsabilidades
+## Responsabilidades
 
 Durante o projeto atuei em:
 
@@ -125,9 +114,8 @@ Durante o projeto atuei em:
 - Coordenação Técnica
 - Gestão da Infraestrutura
 
----
 
-# Principais Desafios
+## Principais Desafios
 
 O maior desafio foi construir uma plataforma capaz de integrar diferentes perfis de usuários — clientes, motoboys e equipe operacional — em um único fluxo de trabalho.
 
@@ -135,9 +123,8 @@ Outro desafio importante foi desenvolver APIs robustas para integração com apl
 
 Também foi necessário estruturar toda a operação administrativa da empresa através de um backoffice completo para gerenciamento das entregas.
 
----
 
-# Resultados
+## Resultados
 
 O projeto entregou:
 
@@ -151,9 +138,8 @@ O projeto entregou:
 
 Embora o projeto tenha sido posteriormente superado por concorrentes com maior capacidade de investimento, representou uma iniciativa pioneira no mercado brasileiro de entregas sob demanda.
 
----
 
-# Aprendizados
+## Aprendizados
 
 Construir uma plataforma digital envolve muito mais do que desenvolver aplicações.
 
@@ -161,31 +147,28 @@ Construir uma plataforma digital envolve muito mais do que desenvolver aplicaç�
 
 O Find Motoboy foi uma experiência importante na construção de plataformas transacionais de alta disponibilidade, muito antes da consolidação desse modelo de negócio no mercado brasileiro.
 
----
 
-# Tecnologias Relacionadas
+## Tecnologias Relacionadas
 
 - .NET
 - C#
 - Microsoft SQL Server
 - REST APIs
 - Arquitetura de Software
-- Cloud Computing
+- Computação em Nuvem
 - Liderança Técnica
 
----
 
-# Conteúdo Relacionado
+## Conteúdo Relacionado
 
-## Especialidades
+### Especialidades
 
 - Arquitetura de Software
 - Engenharia Backend
-- Cloud Engineering
+- Engenharia de Nuvem
 - Liderança Técnica
 
----
 
 ## Próximo Estudo de Caso
 
-→ Voltar para Estudos de Caso
+[Voltar para Estudos de Caso](../)

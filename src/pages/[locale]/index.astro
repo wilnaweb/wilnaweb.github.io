@@ -1,0 +1,146 @@
+---
+import { getEntry, render } from 'astro:content';
+import PageLayout from '../../layouts/PageLayout.astro';
+import { LOCALES, isLocale, type Locale } from '../../lib/site';
+import { withLocalePrefix } from '../../lib/routing';
+import HeroSection from '../../components/HeroSection.astro';
+import CTAButton from '../../components/CTAButton.astro';
+import CardGrid from '../../components/CardGrid.astro';
+import InfoCard from '../../components/InfoCard.astro';
+import BigNumberCard from '../../components/BigNumberCard.astro';
+import ExpertisePremiumCard from '../../components/ExpertisePremiumCard.astro';
+import CaseStudyPremiumCard from '../../components/CaseStudyPremiumCard.astro';
+
+export function getStaticPaths() {
+  return LOCALES.map((locale) => ({ params: { locale } }));
+}
+
+const localeParam = Astro.params.locale;
+
+if (!localeParam || !isLocale(localeParam)) {
+  throw new Error('Invalid locale route.');
+}
+
+const locale: Locale = localeParam;
+const entry = await getEntry('pages', `${locale}/home`);
+
+if (!entry) {
+  throw new Error(`Missing home content for locale: ${locale}`);
+}
+
+const { Content } = await render(entry);
+const quickLinks = entry.data.quickLinks ?? [];
+const trustedParagraphs = entry.data.trustedParagraphs ?? [];
+const highlights = entry.data.highlights ?? [];
+const featuredExpertise = entry.data.featuredExpertise ?? [];
+const featuredCaseStudies = entry.data.featuredCaseStudies ?? [];
+---
+
+<PageLayout title={entry.data.title} description={entry.data.description} locale={locale} pathname={Astro.url.pathname}>
+  {entry.data.ctaPrimaryLabel && entry.data.ctaSecondaryLabel ? (
+  <HeroSection
+    eyebrow={entry.data.heroEyebrow}
+    title="Wilson Cavalcante"
+    subtitle={entry.data.heroSubtitle}
+    description={entry.data.heroDescription}
+  >
+    <Fragment slot="actions">
+      <CTAButton
+        href={withLocalePrefix(locale, entry.data.ctaPrimaryHref ?? '/case-studies')}
+        label={entry.data.ctaPrimaryLabel}
+      />
+      <CTAButton
+        href={withLocalePrefix(locale, entry.data.ctaSecondaryHref ?? '/writing')}
+        label={entry.data.ctaSecondaryLabel}
+        variant="secondary"
+      />
+    </Fragment>
+  </HeroSection>
+  ) : (
+    <HeroSection
+      eyebrow={entry.data.heroEyebrow}
+      title="Wilson Cavalcante"
+      subtitle={entry.data.heroSubtitle}
+      description={entry.data.heroDescription}
+    />
+  )}
+
+  {entry.data.trustedHeading ? (
+    <>
+      <h2>{entry.data.trustedHeading}</h2>
+      {trustedParagraphs.map((paragraph) => (
+        <p>{paragraph}</p>
+      ))}
+    </>
+  ) : null}
+
+  {highlights.length > 0 ? (
+    <section class="mb-10" aria-labelledby="home-highlights-heading">
+      <h2 id="home-highlights-heading" class="mb-4 mt-0 text-2xl font-semibold tracking-[-0.02em] text-[var(--color-text-primary)]">
+        {entry.data.highlightsHeading}
+      </h2>
+      <div class="grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-4">
+        {highlights.map((item) => (
+          <BigNumberCard value={item.value} label={item.label} />
+        ))}
+      </div>
+    </section>
+  ) : null}
+
+  {featuredExpertise.length > 0 ? (
+    <section class="mb-10" aria-labelledby="home-featured-expertise-heading">
+      <h2 id="home-featured-expertise-heading" class="mb-4 mt-0 text-2xl font-semibold tracking-[-0.02em] text-[var(--color-text-primary)]">
+        {entry.data.featuredExpertiseHeading}
+      </h2>
+      <div class="grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-3">
+        {featuredExpertise.map((item) => (
+          <ExpertisePremiumCard
+            title={item.title}
+            description={item.description}
+            icon={item.icon}
+          />
+        ))}
+      </div>
+    </section>
+  ) : null}
+
+  {featuredCaseStudies.length > 0 ? (
+    <section class="mb-10" aria-labelledby="home-featured-case-studies-heading">
+      <h2 id="home-featured-case-studies-heading" class="mb-4 mt-0 text-2xl font-semibold tracking-[-0.02em] text-[var(--color-text-primary)]">
+        {entry.data.featuredCaseStudiesHeading}
+      </h2>
+      <div class="grid grid-cols-1 gap-4 md:grid-cols-2">
+        {featuredCaseStudies.map((item) => (
+          <CaseStudyPremiumCard
+            title={item.title}
+            description={item.description}
+            role={item.role}
+            href={withLocalePrefix(locale, item.href)}
+            ctaLabel={item.ctaLabel ?? (locale === 'pt-br' ? 'Abrir estudo de caso' : 'Open case study')}
+          />
+        ))}
+      </div>
+    </section>
+  ) : null}
+
+  <Content />
+
+  {quickLinks.length > 0 ? (
+    <section class="mb-10" aria-labelledby="home-quick-links-heading">
+      <h2 id="home-quick-links-heading" class="mb-4 mt-0 text-2xl font-semibold tracking-[-0.02em] text-[var(--color-text-primary)]">
+        {locale === 'pt-br' ? 'Atalhos' : 'Quick Links'}
+      </h2>
+      <CardGrid columns={3}>
+        {quickLinks.map((card) => (
+          <InfoCard
+            title={card.title}
+            description={card.description}
+            href={withLocalePrefix(locale, card.href)}
+            ctaLabel={card.ctaLabel}
+            variant="highlight"
+          />
+        ))}
+      </CardGrid>
+    </section>
+  ) : null}
+</PageLayout>

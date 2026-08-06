@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://wilnaweb.dev/sitemap-index.xml

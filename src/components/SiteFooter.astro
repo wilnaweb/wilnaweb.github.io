@@ -1,0 +1,60 @@
+---
+import type { Locale } from '../lib/site';
+import { getLocaleCopy } from '../lib/i18n';
+import { withLocalePrefix } from '../lib/routing';
+import LanguageSwitcher from './LanguageSwitcher.astro';
+
+interface Props {
+  locale: Locale;
+  pathname: string;
+}
+
+const { locale, pathname } = Astro.props;
+const copy = getLocaleCopy(locale);
+const currentYear = new Date().getFullYear();
+---
+
+<footer class="mt-20 border-t border-[var(--color-border)] pt-10">
+  <div class="grid gap-8 md:grid-cols-3">
+    <section>
+      <h2 class="mb-3 text-xs font-semibold uppercase tracking-[0.14em] text-[var(--color-text-muted)]">{copy.footerNavigationTitle}</h2>
+      <ul class="space-y-2">
+        {copy.footerNav.map((item) => (
+          <li>
+            <a href={withLocalePrefix(locale, item.href)} class="text-sm text-[var(--color-text-secondary)] transition-colors duration-200 hover:text-[var(--color-text-primary)]">
+              {item.label}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </section>
+
+    <section>
+      <h2 class="mb-3 text-xs font-semibold uppercase tracking-[0.14em] text-[var(--color-text-muted)]">{copy.footerChannelsTitle}</h2>
+      <ul class="space-y-2">
+        <li>
+          <a href="mailto:hello@wil.dev.br" class="text-sm text-[var(--color-text-secondary)] transition-colors duration-200 hover:text-[var(--color-text-primary)]">
+            hello@wil.dev.br
+          </a>
+        </li>
+        {copy.channels.map((item) => (
+          <li>
+            <a href={item.href} target="_blank" rel="noreferrer" class="text-sm text-[var(--color-text-secondary)] transition-colors duration-200 hover:text-[var(--color-text-primary)]">
+              {item.label}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </section>
+
+    <section>
+      <h2 class="mb-3 text-xs font-semibold uppercase tracking-[0.14em] text-[var(--color-text-muted)]">{copy.footerLanguageTitle}</h2>
+      <LanguageSwitcher locale={locale} pathname={pathname} />
+    </section>
+  </div>
+
+  <div class="mt-10 flex flex-wrap items-center justify-between gap-3 border-t border-[var(--color-border)] pt-5 text-xs text-[var(--color-text-muted)]">
+    <p>© {currentYear} WIL.DEV</p>
+    <p>v1.0.0</p>
+  </div>
+</footer>

@@ -5,22 +5,30 @@ slug: /career
 description: Linha do tempo profissional com mais de vinte anos de experiência em engenharia de software, arquitetura de soluções e liderança técnica.
 language: pt-br
 status: approved
-lastUpdated: 2026-08-05
+lastUpdated: 2026-08-06
+heroEyebrow: Carreira
+heroSubtitle: Da engenharia de software para arquitetura e liderança técnica.
+heroDescription: Linha do tempo com papéis, projetos e responsabilidades em iniciativas corporativas de plataformas digitais.
+quickLinks:
+  - title: Estudos de Caso
+    description: Projetos que representam marcos de arquitetura e entrega.
+    href: /case-studies
+    ctaLabel: Explorar projetos
+  - title: Sobre
+    description: Contexto mais amplo sobre valores, abordagem e foco profissional.
+    href: /about
+    ctaLabel: Conhecer melhor
+  - title: Contato
+    description: Conversar sobre oportunidades, consultoria e colaboração.
+    href: /contact
+    ctaLabel: Falar comigo
 ---
 
-# Carreira
+A linha do tempo abaixo destaca a evolução de papéis, responsabilidades e desafios técnicos que marcaram minha trajetória.
 
-## Mais de 20 anos construindo software, liderando equipes e projetando plataformas digitais.
+## Linha do Tempo
 
-Minha trajetória profissional representa uma evolução contínua, iniciando no desenvolvimento de software, passando por análise de sistemas, gestão de projetos, liderança técnica e, atualmente, arquitetura de soluções para plataformas digitais corporativas.
-
-Ao longo dessa jornada participei de projetos para empresas de diferentes segmentos, sempre buscando conectar tecnologia, engenharia e objetivos de negócio.
-
----
-
-# Linha do Tempo
-
-## Netbiis | Data Technology Experiences
+### Netbiis | Data Technology Experiences
 
 **Engenheiro de Software • Arquiteto de Software • Tech Lead**
 
@@ -36,20 +44,20 @@ Atuação em projetos corporativos utilizando Adobe Experience Cloud, com foco e
 - Adobe Analytics
 - Adobe Firefly
 - AEM Assets
-- Cloud Architecture
+- Arquitetura em Nuvem
 - DevOps
 - Integrações
 
 ### Principais Projetos
 
-- Portal O TEMPO
-- Palmeiras – Digital Assets
-- Yduqs – Automação de Peças com IA
-- Cogna – Plataforma Edge Delivery Services
+- [Portal O TEMPO](../case-studies/o-tempo/)
+- [Palmeiras – Digital Assets](../case-studies/palmeiras/)
+- [Yduqs – Automação de Peças com IA](../case-studies/yduqs-firefly/)
+- [Cogna – Plataforma Edge Delivery Services](../case-studies/cogna-edge-delivery/)
 
 ---
 
-## Gasoline Digital
+### Gasoline Digital
 
 **Coordenador de Operações e Tecnologia**
 
@@ -61,9 +69,9 @@ Além do desenvolvimento de software, participei da definição de arquitetura, 
 
 ### Principais Projetos
 
-- Razões Para Acreditar
-- Irani Papel e Embalagem
-- Find Motoboy
+- [Razões Para Acreditar](../case-studies/razoes-para-acreditar/)
+- [Irani Papel e Embalagem](../case-studies/irani/)
+- [Find Motoboy](../case-studies/find-motoboy/)
 - Hypeness
 - Casal Sem Vergonha
 - Engenharia 360
@@ -72,7 +80,7 @@ Além do desenvolvimento de software, participei da definição de arquitetura, 
 
 ---
 
-## Havas Worldwide
+### Havas Worldwide
 
 **Gerente de Projetos**
 
@@ -90,7 +98,7 @@ Gerenciamento de projetos digitais para grandes marcas nacionais e internacionai
 
 ---
 
-## Ferrari Ferramentas
+### Ferrari Ferramentas
 
 **Desenvolvedor de Software**
 
@@ -100,7 +108,7 @@ Desenvolvimento da plataforma de e-commerce B2B e B2C da empresa, atuando na evo
 
 ---
 
-## Maya
+### Maya
 
 **Gerente de Projetos**
 
@@ -117,7 +125,7 @@ Gerenciamento completo de projetos digitais, desde o levantamento de requisitos 
 
 ---
 
-## OgilvyOne
+### OgilvyOne
 
 **Analista de Sistemas • Desenvolvedor de Software**
 
@@ -135,7 +143,7 @@ Iniciei minha trajetória como desenvolvedor e evoluí para Analista de Sistemas
 
 ---
 
-## ADBAT-TESLA
+### ADBAT-TESLA
 
 **Desenvolvedor de Software**
 
@@ -154,7 +162,7 @@ Desenvolvimento de sistemas corporativos, websites e aplicações web para clien
 
 ---
 
-# Evolução Profissional
+## Evolução Profissional
 
 Ao longo da carreira, minhas responsabilidades evoluíram naturalmente.
 
@@ -181,7 +189,7 @@ Mais do que mudanças de cargo, essa evolução representa o aumento da capacida
 
 ---
 
-# Competências Desenvolvidas
+## Competências Desenvolvidas
 
 Ao longo dessa jornada desenvolvi experiência em:
 
@@ -200,8 +208,10 @@ Ao longo dessa jornada desenvolvi experiência em:
 
 ---
 
-# Olhando para o Futuro
+## Olhando para o Futuro
 
 Minha carreira continua evoluindo.
 
 Hoje meu foco está na construção de plataformas digitais modernas, unindo Arquitetura de Software, Inteligência Artificial e Adobe Experience Cloud para ajudar organizações a desenvolver soluções escaláveis, sustentáveis e preparadas para os desafios dos próximos anos.
+
+[Explorar estudos de caso relacionados](../case-studies/)

@@ -7,13 +7,10 @@ status: approved
 lastUpdated: 2026-08-05
 ---
 
-# Cogna – Plataforma Edge Delivery Services
+Acelerando a publicação de campanhas com Adobe Edge Delivery Services
 
-## Acelerando a publicação de campanhas com Adobe Edge Delivery Services
 
----
-
-# Visão Geral
+## Visão Geral
 
 A Cogna, um dos maiores grupos educacionais do Brasil, realiza constantemente campanhas de captação de alunos, rematrículas e ações promocionais para diversas instituições de ensino.
 
@@ -21,17 +18,20 @@ A velocidade exigida pelas áreas de marketing tornava inviável desenvolver cad
 
 O objetivo foi criar uma plataforma reutilizável utilizando **Adobe Edge Delivery Services (EDS)**, permitindo que novas Landing Pages fossem publicadas rapidamente, mantendo padronização visual, governança e alta performance.
 
----
 
-# Cliente
+## Cliente
 
 **Cogna Educação**
 
 **Segmento:** Educação
 
----
 
-# Minha Atuação
+## Empresa
+
+**Netbiis**
+
+
+## Minha Atuação
 
 - Arquiteto de Software
 - Tech Lead
@@ -39,9 +39,8 @@ O objetivo foi criar uma plataforma reutilizável utilizando **Adobe Edge Delive
 
 Fui responsável pela arquitetura da plataforma, levantamento de requisitos, liderança técnica da equipe e definição da arquitetura dos componentes reutilizáveis.
 
----
 
-# Desafio de Negócio
+## Desafio de Negócio
 
 A equipe de marketing precisava lançar campanhas em prazos cada vez menores.
 
@@ -57,9 +56,8 @@ A solução precisava oferecer:
 
 Além disso, a plataforma deveria atender diferentes marcas do grupo sem necessidade de criar novos projetos para cada campanha.
 
----
 
-# Solução
+## Solução
 
 Foi desenvolvida uma plataforma baseada em **Adobe Edge Delivery Services**, composta por uma biblioteca de componentes reutilizáveis e layouts previamente definidos.
 
@@ -67,18 +65,17 @@ Ao invés de desenvolver uma nova Landing Page para cada campanha, as equipes pa
 
 A arquitetura foi projetada para permitir evolução contínua da plataforma, mantendo separação entre conteúdo, apresentação e componentes.
 
----
 
-# Tecnologias
+## Tecnologias
 
-## Adobe
+### Adobe
 
 - Adobe Edge Delivery Services
 - Universal Editor
 - Adobe Experience Manager as a Cloud Service
 - Document-Based Authoring
 
-## Engenharia
+### Engenharia
 
 - HTML
 - CSS
@@ -87,9 +84,8 @@ A arquitetura foi projetada para permitir evolução contínua da plataforma, ma
 - GitHub
 - CI/CD
 
----
 
-# Responsabilidades
+## Responsabilidades
 
 Durante o projeto atuei em:
 
@@ -102,9 +98,8 @@ Durante o projeto atuei em:
 - Estratégia de Performance
 - Coordenação Técnica
 
----
 
-# Principais Desafios
+## Principais Desafios
 
 O maior desafio foi equilibrar flexibilidade para as equipes de marketing com governança técnica da plataforma.
 
@@ -112,9 +107,8 @@ Era necessário permitir que novas Landing Pages fossem criadas rapidamente, mas
 
 Outro desafio importante foi definir uma arquitetura baseada em componentes reutilizáveis, permitindo que novas campanhas fossem construídas sem necessidade de desenvolvimento específico.
 
----
 
-# Resultados
+## Resultados
 
 O projeto entregou:
 
@@ -128,17 +122,15 @@ O projeto entregou:
 
 A nova arquitetura tornou o processo de criação de Landing Pages muito mais ágil, reduzindo esforço de desenvolvimento e aumentando a velocidade de publicação das campanhas.
 
----
 
-# Aprendizados
+## Aprendizados
 
 Plataformas reutilizáveis geram muito mais valor do que soluções desenvolvidas para um único projeto.
 
 Investir em arquitetura, componentes reutilizáveis e governança permite acelerar entregas, reduzir custos de manutenção e criar uma base sólida para evolução contínua.
 
----
 
-# Tecnologias Relacionadas
+## Tecnologias Relacionadas
 
 - Adobe Edge Delivery Services
 - Universal Editor
@@ -147,26 +139,23 @@ Investir em arquitetura, componentes reutilizáveis e governança permite aceler
 - Arquitetura Front-end
 - Arquitetura de Software
 
----
 
-# Conteúdo Relacionado
+## Conteúdo Relacionado
 
-## Especialidades
+### Especialidades
 
 - Adobe Experience Cloud
 - Plataformas Digitais
 - Arquitetura de Software
 - Engenharia Front-end
 
----
 
-## Artigos
+### Artigos
 
-- Adobe Edge Delivery Services: A Technical Perspective for Developers
-- CORS in AEM as a Cloud Service for GraphQL (POST): What the Documentation Doesn't Tell You
+- [Adobe Edge Delivery Services: A Technical Perspective for Developers](../writing/#adobe-edge-delivery-services-a-technical-perspective-for-developers)
+- [CORS in AEM as a Cloud Service for GraphQL (POST): What the Documentation Doesn't Tell You](../writing/#cors-in-aem-as-a-cloud-service-for-graphql-post-what-the-documentation-doesnt-tell-you)
 
----
 
 ## Próximo Estudo de Caso
 
-→ Irani – Plataforma de Relatórios Corporativos
+[Irani – Plataforma de Relatórios Corporativos](../irani/)

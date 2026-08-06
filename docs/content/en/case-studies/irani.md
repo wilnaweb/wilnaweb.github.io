@@ -7,41 +7,34 @@ status: approved
 lastUpdated: 2026-08-05
 ---
 
-# Irani Financial Reports Platform
+Modernizing Corporate Financial and Sustainability Reporting
 
-## Modernizing Corporate Financial and Sustainability Reporting
 
----
-
-# Overview
+## Overview
 
 Irani Papel e Embalagem S.A., a publicly traded Brazilian company, required a centralized platform to manage, publish and distribute corporate reports for investors, stakeholders and the general public.
 
 The objective was to replace a fragmented publishing process with a platform capable of organizing financial reports, sustainability reports and mandatory corporate disclosures while providing secure access control and an intuitive content management experience.
 
----
 
-# Client
+## Client
 
 **Irani Papel e Embalagem S.A.**
 
 Industry: Manufacturing / Public Company
 
----
 
-# Company
+## Company
 
-**Gasoline Digital**
+**Gasoline.Digital**
 
----
 
-# Period
+## Period
 
 2014 – 2016
 
----
 
-# My Role
+## My Role
 
 - Software Architect
 - Tech Lead
@@ -49,9 +42,8 @@ Industry: Manufacturing / Public Company
 
 I was responsible for solution architecture, requirements analysis, technical leadership and coordination of the development team throughout the project.
 
----
 
-# Business Challenge
+## Business Challenge
 
 As a publicly traded company, Irani regularly publishes mandatory corporate information.
 
@@ -66,9 +58,8 @@ The platform needed to support:
 - Public and restricted publications
 - Long-term document organization
 
----
 
-# Solution
+## Solution
 
 A corporate reporting platform was developed using WordPress as the content management system.
 
@@ -78,26 +69,24 @@ Content could be published as downloadable documents or as structured web pages,
 
 Access permissions allowed specific reports to remain restricted while keeping public information easily accessible.
 
----
 
-# Technologies
+## Technologies
 
-## Platform
+### Platform
 
 - WordPress
 - PHP
 - MySQL
 
-## Engineering
+### Engineering
 
 - HTML
 - CSS
 - JavaScript
 - REST Integrations
 
----
 
-# Architecture Responsibilities
+## Architecture Responsibilities
 
 My responsibilities included:
 
@@ -109,9 +98,8 @@ My responsibilities included:
 - Technical Standards
 - Client Communication
 
----
 
-# Key Challenges
+## Key Challenges
 
 One of the primary challenges was organizing different categories of corporate information into a single platform while maintaining a simple publishing experience for business users.
 
@@ -119,9 +107,8 @@ The solution also needed to support different publication models, allowing conte
 
 Long-term maintainability and ease of content management were key architectural considerations.
 
----
 
-# Results
+## Results
 
 The project delivered:
 
@@ -134,17 +121,15 @@ The project delivered:
 
 The platform became an important communication channel between the company and its investors, supporting regulatory reporting and corporate transparency.
 
----
 
-# Engineering Takeaways
+## Engineering Takeaways
 
 Enterprise content management extends beyond marketing websites.
 
 Well-designed CMS platforms can simplify complex business processes, improve governance and make critical corporate information easier to manage and distribute.
 
----
 
-# Technologies Related
+## Technologies Related
 
 - WordPress
 - PHP
@@ -153,20 +138,16 @@ Well-designed CMS platforms can simplify complex business processes, improve gov
 - Software Architecture
 - Technical Leadership
 
----
 
-# Related Content
+## Related Content
 
-## Related Expertise
+### Related Expertise
 
-Software Architecture
+- Software Architecture
+- Enterprise Content Management
+- Technical Leadership
 
-Enterprise Content Management
-
-Technical Leadership
-
----
 
 ## Next Case Study
 
-→ Razões Para Acreditar
+[Razões Para Acreditar](../razoes-para-acreditar/)

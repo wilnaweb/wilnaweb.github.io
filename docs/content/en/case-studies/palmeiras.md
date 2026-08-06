@@ -7,13 +7,10 @@ status: approved
 lastUpdated: 2026-08-05
 ---
 
-# Palmeiras Digital Assets
+Centralizing Digital Assets with Adobe Experience Manager Assets
 
-## Centralizing Digital Assets with Adobe Experience Manager Assets
 
----
-
-# Overview
+## Overview
 
 Sociedade Esportiva Palmeiras needed to modernize the way digital assets were managed and distributed across the organization.
 
@@ -21,17 +18,20 @@ Marketing, communications, media relations and other departments stored files ac
 
 The project introduced **Adobe Experience Manager Assets** as the organization's central Digital Asset Management (DAM) platform.
 
----
 
-# Client
+## Client
 
 **Sociedade Esportiva Palmeiras**
 
 Industry: Sports
 
----
 
-# My Role
+## Company
+
+**Netbiis**
+
+
+## My Role
 
 - Software Architect
 - Tech Lead
@@ -39,9 +39,8 @@ Industry: Sports
 
 I was responsible for solution architecture, technical leadership, requirements analysis and the overall technical design of the platform.
 
----
 
-# Business Challenge
+## Business Challenge
 
 The club faced several operational challenges.
 
@@ -54,9 +53,8 @@ The club faced several operational challenges.
 
 The objective was to centralize all digital assets into a single enterprise platform while improving governance and simplifying content distribution.
 
----
 
-# Solution
+## Solution
 
 An enterprise Digital Asset Management solution was designed using **Adobe Experience Manager Assets**.
 
@@ -73,11 +71,10 @@ The solution included:
 - Content distribution services.
 - Secure media sharing.
 
----
 
-# Technologies
+## Technologies
 
-## Adobe
+### Adobe
 
 - Adobe Experience Manager Assets
 - Dynamic Media
@@ -86,7 +83,7 @@ The solution included:
 - Asset Processing
 - Smart Collections
 
-## Engineering
+### Engineering
 
 - Java
 - OSGi
@@ -95,9 +92,8 @@ The solution included:
 - Git
 - Maven
 
----
 
-# Architecture Responsibilities
+## Architecture Responsibilities
 
 My responsibilities included:
 
@@ -111,9 +107,8 @@ My responsibilities included:
 - Development Standards
 - Technical Coordination
 
----
 
-# Key Challenges
+## Key Challenges
 
 One of the primary challenges was consolidating assets originating from multiple departments into a single governed repository without disrupting existing business processes.
 
@@ -121,9 +116,8 @@ Another challenge involved designing a permission model capable of supporting di
 
 The project also required integrating Adobe Experience Manager Assets with websites and other digital platforms through APIs, ensuring that content could be consumed consistently across multiple channels.
 
----
 
-# Results
+## Results
 
 The project delivered:
 
@@ -137,17 +131,15 @@ The project delivered:
 
 The new platform became the organization's single source of truth for digital assets.
 
----
 
-# Engineering Takeaways
+## Engineering Takeaways
 
 A Digital Asset Management platform is more than a file repository.
 
 Its real value comes from governance, metadata strategy, permission management, automation and seamless integration with the organization's digital ecosystem.
 
----
 
-# Technologies Related
+## Technologies Related
 
 - Adobe Experience Manager Assets
 - Adobe Experience Cloud
@@ -156,28 +148,23 @@ Its real value comes from governance, metadata strategy, permission management, 
 - REST APIs
 - Software Architecture
 
----
 
-# Related Content
+## Related Content
 
-## Related Expertise
+### Related Expertise
 
-Adobe Experience Cloud
+- Adobe Experience Cloud
+- Digital Experience Platforms
+- Software Architecture
 
-Digital Experience Platforms
 
-Software Architecture
+### Related Articles
 
----
+- [Adobe Edge Delivery Services: A Technical Perspective](../writing/#adobe-edge-delivery-services-a-technical-perspective-for-developers)
+- [AEMCS API Client Library in PHP](../writing/#aemcs-api-client-library-in-php-making-aem-assets-integration-easier)
+- [How to Use a Static IP Proxy in AEM as a Cloud Service](../writing/#how-to-use-a-static-ip-proxy-in-aem-as-a-cloud-service)
 
-## Related Articles
-
-- Adobe Edge Delivery Services: A Technical Perspective
-- AEMCS API Client Library in PHP
-- How to Use a Static IP Proxy in AEM as a Cloud Service
-
----
 
 ## Next Case Study
 
-→ Yduqs – Marketing Asset Automation
+[Yduqs – Marketing Asset Automation](../yduqs-firefly/)

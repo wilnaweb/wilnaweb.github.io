@@ -7,29 +7,29 @@ status: approved
 lastUpdated: 2026-08-05
 ---
 
-# Portal O TEMPO
+Modernizing a Large-Scale Digital News Platform with Adobe Experience Manager
 
-## Modernizing a Large-Scale Digital News Platform with Adobe Experience Manager
 
----
-
-# Overview
+## Overview
 
 O TEMPO is one of Brazil's leading digital newspapers, publishing thousands of articles every day across multiple editorial sections.
 
 The project aimed to modernize the entire digital publishing platform by migrating to **Adobe Experience Manager as a Cloud Service**, providing journalists and editors with a modern authoring experience while improving platform scalability, maintainability and long-term evolution.
 
----
 
-# Client
+## Client
 
 **Grupo O TEMPO**
 
 Industry: Media
 
----
 
-# My Role
+## Company
+
+**Netbiis**
+
+
+## My Role
 
 - Software Architect
 - Tech Lead
@@ -37,9 +37,8 @@ Industry: Media
 
 I was responsible for the technical architecture, solution design, engineering leadership and coordination of the implementation throughout the project lifecycle.
 
----
 
-# Business Challenge
+## Business Challenge
 
 The project involved much more than replacing a CMS.
 
@@ -53,9 +52,8 @@ The platform needed to:
 - Integrate with existing publishing services.
 - Maintain high availability and performance.
 
----
 
-# Solution
+## Solution
 
 A new enterprise platform was designed using Adobe Experience Manager as a Cloud Service as the foundation for the digital publishing ecosystem.
 
@@ -70,11 +68,10 @@ The solution included:
 - CI/CD pipelines.
 - Monitoring and operational support.
 
----
 
-# Technologies
+## Technologies
 
-## Adobe
+### Adobe
 
 - Adobe Experience Manager as a Cloud Service
 - Adobe Edge Delivery Services
@@ -87,7 +84,7 @@ The solution included:
 - Adobe App Builder
 - Adobe I/O
 
-## Engineering
+### Engineering
 
 - Java
 - HTL
@@ -99,9 +96,8 @@ The solution included:
 - Git
 - CI/CD
 
----
 
-# Architecture Responsibilities
+## Architecture Responsibilities
 
 My responsibilities included:
 
@@ -116,9 +112,8 @@ My responsibilities included:
 - Deployment Strategy
 - Technical Support
 
----
 
-# Key Challenges
+## Key Challenges
 
 One of the most significant challenges was migrating nearly two million articles while preserving their structure, metadata and relationships.
 
@@ -126,9 +121,8 @@ Another major challenge was adapting Adobe Experience Manager to the newsroom wo
 
 The project also required balancing performance, scalability and maintainability while supporting a continuously evolving publishing operation.
 
----
 
-# Results
+## Results
 
 The project successfully delivered:
 
@@ -142,9 +136,8 @@ The project successfully delivered:
 
 The new platform provided a strong foundation for the continuous evolution of O TEMPO's digital ecosystem.
 
----
 
-# Engineering Takeaways
+## Engineering Takeaways
 
 Large enterprise migrations are not simply technology replacement projects.
 
@@ -152,9 +145,8 @@ Success depends on understanding business processes, content architecture, opera
 
 Technology is only one part of the solution.
 
----
 
-# Technologies Related
+## Technologies Related
 
 - Adobe Experience Manager
 - Adobe Experience Cloud
@@ -163,29 +155,24 @@ Technology is only one part of the solution.
 - Software Architecture
 - Technical Leadership
 
----
 
-# Related Content
+## Related Content
 
-## Related Expertise
+### Related Expertise
 
-Adobe Experience Cloud
+- Adobe Experience Cloud
+- Software Architecture
+- Digital Experience Platforms
 
-Software Architecture
 
-Digital Experience Platforms
+### Related Articles
 
----
+- [Understanding Full-Text Search in AEM](../writing/#understanding-full-text-search-in-aem-how-lucene-really-works)
+- [Understanding AEM Index Naming and Versioning](../writing/#understanding-aem-index-naming-and-versioning)
+- [includedPaths vs queryPaths](../writing/#includedpaths-vs-querypaths-understanding-index-scope-in-aem)
+- [Adobe Edge Delivery Services: A Technical Perspective](../writing/#adobe-edge-delivery-services-a-technical-perspective-for-developers)
 
-## Related Articles
-
-- Understanding Full-Text Search in AEM
-- Understanding AEM Index Naming and Versioning
-- includedPaths vs queryPaths
-- Adobe Edge Delivery Services: A Technical Perspective
-
----
 
 ## Next Case Study
 
-→ Palmeiras Digital Assets
+[Palmeiras Digital Assets](../palmeiras/)

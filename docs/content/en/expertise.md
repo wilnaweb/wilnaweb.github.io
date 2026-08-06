@@ -6,31 +6,42 @@ description: Areas of expertise across Software Architecture, Adobe Experience C
 language: en
 status: approved
 lastUpdated: 2026-08-05
+heroEyebrow: Expertise
+heroSubtitle: Capabilities shaped by enterprise delivery and technical leadership.
+heroDescription: Architecture, Adobe Experience Cloud, cloud engineering and delivery practices applied in real projects.
+quickLinks:
+  - title: Case Studies
+    description: See how these capabilities were applied in enterprise initiatives.
+    href: /case-studies
+    ctaLabel: View case studies
+  - title: Writing
+    description: Technical articles on architecture and platform engineering decisions.
+    href: /writing
+    ctaLabel: Read articles
+  - title: Contact
+    description: Discuss project needs, architecture strategy and team enablement.
+    href: /contact
+    ctaLabel: Start conversation
 ---
 
-# Expertise
+<div class="page-intro-callout">
+<p class="page-intro-eyebrow">Scope overview</p>
+<p>Below are the technical domains where I have built depth through delivery, experimentation, and long-term platform ownership.</p>
+</div>
 
-Technology is constantly evolving.
-
-Strong engineering principles are not.
-
-Over more than two decades, my career has evolved across software development, architecture, cloud platforms and digital experience technologies. Today, my work is centered on designing enterprise solutions that combine software engineering, business strategy and modern digital platforms.
-
-Rather than listing technologies, this page presents the areas where I have built practical experience through real projects, technical leadership and continuous learning.
-
----
-
-# Core Areas of Expertise
+## Core Areas of Expertise
 
 Each area below represents a specialization developed through enterprise projects, technical research and hands-on experience.
 
----
+<div class="expertise-area-grid">
 
-## Adobe Experience Cloud
+<article class="expertise-area">
+
+### Adobe Experience Cloud
 
 Enterprise Digital Experience Platforms built using Adobe technologies.
 
-**Focus Areas**
+<p class="expertise-meta-title">Focus Areas</p>
 
 - Adobe Experience Manager
 - AEM as a Cloud Service
@@ -43,30 +54,32 @@ Enterprise Digital Experience Platforms built using Adobe technologies.
 - Adobe App Builder
 - Adobe I/O
 
-**Experience**
+<p class="expertise-meta-title">Experience</p>
 
 Enterprise implementations across media, education and sports.
 
-**Related Case Studies**
+<p class="expertise-meta-title">Related Case Studies</p>
 
 - Portal O TEMPO
 - Palmeiras Digital Assets
-- Cogna Firefly Automation
+- Yduqs Marketing Asset Automation
 - Cogna Edge Delivery Platform
 
-**Related Articles**
+<p class="expertise-meta-title">Related Articles</p>
 
 Multiple technical articles covering AEM, Edge Delivery Services, Oak Indexes, Lucene and Cloud Architecture.
 
-→ Explore Adobe Experience Cloud
+[Explore Adobe Experience Cloud](../case-studies/)
 
----
+</article>
 
-## Software Architecture
+<article class="expertise-area">
+
+### Software Architecture
 
 Designing software that remains maintainable, scalable and aligned with business objectives.
 
-**Focus Areas**
+<p class="expertise-meta-title">Focus Areas</p>
 
 - Solution Architecture
 - Enterprise Architecture
@@ -77,19 +90,21 @@ Designing software that remains maintainable, scalable and aligned with business
 - Technical Governance
 - Engineering Standards
 
-**Experience**
+<p class="expertise-meta-title">Experience</p>
 
 More than twenty years designing and evolving enterprise software solutions.
 
-→ Explore Software Architecture
+[Explore Software Architecture](../case-studies/)
 
----
+</article>
 
-## Digital Experience Platforms
+<article class="expertise-area">
+
+### Digital Experience Platforms
 
 Designing platforms that connect content, marketing and customer experience.
 
-**Focus Areas**
+<p class="expertise-meta-title">Focus Areas</p>
 
 - Enterprise CMS
 - Headless Architecture
@@ -99,23 +114,23 @@ Designing platforms that connect content, marketing and customer experience.
 - Asset Management
 - Multi-site Platforms
 
-**Related Projects**
+<p class="expertise-meta-title">Related Projects</p>
 
-Portal O TEMPO
+- Portal O TEMPO
+- Cogna
+- Palmeiras
 
-Cogna
+[Explore Digital Experience Platforms](../case-studies/)
 
-Palmeiras
+</article>
 
-→ Explore Digital Experience Platforms
+<article class="expertise-area">
 
----
-
-## Cloud Engineering & DevOps
+### Cloud Engineering & DevOps
 
 Building reliable deployment pipelines and cloud-native platforms.
 
-**Focus Areas**
+<p class="expertise-meta-title">Focus Areas</p>
 
 - CI/CD
 - Build Automation
@@ -124,15 +139,17 @@ Building reliable deployment pipelines and cloud-native platforms.
 - Deployment Pipelines
 - Performance Analysis
 
-→ Explore Cloud Engineering
+[Explore Cloud Engineering](../case-studies/)
 
----
+</article>
 
-## Backend Engineering
+<article class="expertise-area">
+
+### Backend Engineering
 
 A strong software architecture begins with solid engineering foundations.
 
-**Main Technologies**
+<p class="expertise-meta-title">Main Technologies</p>
 
 - Java
 - C#
@@ -145,15 +162,17 @@ A strong software architecture begins with solid engineering foundations.
 - Apache Sling
 - OSGi
 
-→ Explore Backend Engineering
+[Explore Backend Engineering](../case-studies/)
 
----
+</article>
 
-## Front-End Engineering
+<article class="expertise-area">
+
+### Front-End Engineering
 
 Building fast, maintainable and accessible digital experiences.
 
-**Main Technologies**
+<p class="expertise-meta-title">Main Technologies</p>
 
 - HTML5
 - CSS3
@@ -165,15 +184,17 @@ Building fast, maintainable and accessible digital experiences.
 - Accessibility
 - Performance Optimization
 
-→ Explore Front-End Engineering
+[Explore Front-End Engineering](../case-studies/)
 
----
+</article>
 
-## Technical Leadership
+<article class="expertise-area">
+
+### Technical Leadership
 
 Helping engineering teams build better software.
 
-**Responsibilities**
+<p class="expertise-meta-title">Responsibilities</p>
 
 - Technical Leadership
 - Architecture Definition
@@ -185,15 +206,17 @@ Helping engineering teams build better software.
 - Scrum
 - Technical Planning
 
-→ Explore Technical Leadership
+[Explore Technical Leadership](../career/)
 
----
+</article>
 
-## Knowledge Sharing
+<article class="expertise-area">
+
+### Knowledge Sharing
 
 Engineering knowledge becomes more valuable when it is shared.
 
-My contributions include:
+<p class="expertise-meta-title">My Contributions Include</p>
 
 - Technical Articles
 - Architecture Documentation
@@ -204,11 +227,14 @@ My contributions include:
 
 Knowledge sharing is part of my engineering practice.
 
-→ Explore Technical Writing
+[Explore Technical Writing](../writing/)
 
----
+</article>
 
-# Expertise Map
+</div>
+
+
+## Expertise Map
 
 My work combines multiple disciplines rather than isolated technologies.
 
@@ -230,14 +256,15 @@ Software Architecture
 
 These areas continuously evolve together throughout every project.
 
----
 
-# Continue Exploring
+## Continue Exploring
 
 Want to see these technologies applied in real-world scenarios?
 
-→ Explore Case Studies
+[Explore Case Studies](../case-studies/)
 
 Or learn how I approach complex engineering challenges.
 
-→ Read Technical Articles
+[Read Technical Articles](../writing/)
+
+---

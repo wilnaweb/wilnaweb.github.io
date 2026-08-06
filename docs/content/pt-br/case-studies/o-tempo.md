@@ -7,29 +7,29 @@ status: approved
 lastUpdated: 2026-08-05
 ---
 
-# Portal O TEMPO
+Modernizando uma das maiores plataformas de notícias digitais do Brasil com Adobe Experience Manager
 
-## Modernizando uma das maiores plataformas de notícias digitais do Brasil com Adobe Experience Manager
 
----
-
-# Visão Geral
+## Visão Geral
 
 O Portal O TEMPO é um dos principais veículos digitais de notícias do Brasil, publicando milhares de conteúdos diariamente em diversas editorias.
 
 O projeto teve como objetivo modernizar toda a plataforma de publicação digital através da adoção do **Adobe Experience Manager as a Cloud Service**, oferecendo uma experiência mais eficiente para jornalistas e editores, além de uma arquitetura preparada para crescimento, alta disponibilidade e evolução contínua.
 
----
 
-# Cliente
+## Cliente
 
 **Grupo O TEMPO**
 
 **Segmento:** Mídia
 
----
 
-# Minha Atuação
+## Empresa
+
+**Netbiis**
+
+
+## Minha Atuação
 
 - Arquiteto de Software
 - Tech Lead
@@ -37,9 +37,8 @@ O projeto teve como objetivo modernizar toda a plataforma de publicação digita
 
 Fui responsável pela arquitetura da solução, levantamento de requisitos, liderança técnica da equipe, definição dos padrões de desenvolvimento e acompanhamento da implementação do projeto do início ao fim.
 
----
 
-# Desafio de Negócio
+## Desafio de Negócio
 
 O projeto ia muito além da substituição de um CMS.
 
@@ -53,9 +52,8 @@ Era necessário construir uma plataforma capaz de:
 - Garantir alta performance e escalabilidade.
 - Preparar a plataforma para evolução contínua.
 
----
 
-# Solução
+## Solução
 
 Foi projetada uma nova plataforma baseada em **Adobe Experience Manager as a Cloud Service**, utilizando uma arquitetura moderna e preparada para ambientes Cloud.
 
@@ -69,11 +67,10 @@ A solução contemplou:
 - Pipeline de CI/CD.
 - Monitoramento e sustentação da plataforma.
 
----
 
-# Tecnologias
+## Tecnologias
 
-## Adobe
+### Adobe
 
 - Adobe Experience Manager as a Cloud Service
 - Adobe Edge Delivery Services
@@ -86,7 +83,7 @@ A solução contemplou:
 - Adobe App Builder
 - Adobe I/O
 
-## Engenharia
+### Engenharia
 
 - Java
 - HTL
@@ -98,9 +95,8 @@ A solução contemplou:
 - Git
 - CI/CD
 
----
 
-# Responsabilidades
+## Responsabilidades
 
 Durante o projeto atuei em:
 
@@ -114,9 +110,8 @@ Durante o projeto atuei em:
 - Performance
 - Suporte Técnico
 
----
 
-# Principais Desafios
+## Principais Desafios
 
 Um dos maiores desafios foi migrar aproximadamente dois milhões de conteúdos preservando sua organização, relacionamentos e metadados.
 
@@ -124,9 +119,8 @@ Outro ponto importante foi adaptar o Adobe Experience Manager ao fluxo de trabal
 
 Também foi necessário equilibrar performance, escalabilidade e facilidade de manutenção em um ambiente de publicação de notícias com alto volume de acesso.
 
----
 
-# Resultados
+## Resultados
 
 O projeto entregou:
 
@@ -140,17 +134,15 @@ O projeto entregou:
 
 Além da modernização tecnológica, o projeto contribuiu para uma operação editorial mais eficiente e preparada para o crescimento do veículo.
 
----
 
-# Aprendizados
+## Aprendizados
 
 Projetos de transformação digital não envolvem apenas tecnologia.
 
 O sucesso depende da compreensão do negócio, dos processos editoriais, da arquitetura da informação e da construção de uma plataforma capaz de evoluir continuamente ao longo dos anos.
 
----
 
-# Tecnologias Relacionadas
+## Tecnologias Relacionadas
 
 - Adobe Experience Manager
 - Adobe Experience Cloud
@@ -159,27 +151,24 @@ O sucesso depende da compreensão do negócio, dos processos editoriais, da arqu
 - Cloud Architecture
 - Liderança Técnica
 
----
 
-# Conteúdo Relacionado
+## Conteúdo Relacionado
 
-## Especialidades
+### Especialidades
 
 - Adobe Experience Cloud
 - Arquitetura de Software
 - Plataformas Digitais
 
----
 
-## Artigos
+### Artigos
 
-- Understanding Full-Text Search in AEM
-- Understanding AEM Index Naming and Versioning
-- includedPaths vs queryPaths
-- Adobe Edge Delivery Services: A Technical Perspective for Developers
+- [Understanding Full-Text Search in AEM](../writing/#understanding-full-text-search-in-aem-how-lucene-really-works)
+- [Understanding AEM Index Naming and Versioning](../writing/#understanding-aem-index-naming-and-versioning)
+- [includedPaths vs queryPaths](../writing/#includedpaths-vs-querypaths-understanding-index-scope-in-aem)
+- [Adobe Edge Delivery Services: A Technical Perspective for Developers](../writing/#adobe-edge-delivery-services-a-technical-perspective-for-developers)
 
----
 
 ## Próximo Estudo de Caso
 
-→ Palmeiras – Digital Assets
+[Palmeiras – Digital Assets](../palmeiras/)

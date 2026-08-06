@@ -6,31 +6,42 @@ description: Áreas de atuação em Arquitetura de Software, Adobe Experience Cl
 language: pt-br
 status: approved
 lastUpdated: 2026-08-05
+heroEyebrow: Especialidades
+heroSubtitle: Capacidades consolidadas em projetos corporativos e liderança técnica.
+heroDescription: Arquitetura, Adobe Experience Cloud, engenharia em nuvem e práticas de entrega aplicadas em projetos reais.
+quickLinks:
+  - title: Estudos de Caso
+    description: Onde essas capacidades foram aplicadas em iniciativas corporativas.
+    href: /case-studies
+    ctaLabel: Ver estudos
+  - title: Produção Técnica
+    description: Artigos sobre decisões de arquitetura e engenharia de plataformas.
+    href: /writing
+    ctaLabel: Ler artigos
+  - title: Contato
+    description: Conversar sobre necessidades de projeto e estratégia técnica.
+    href: /contact
+    ctaLabel: Iniciar conversa
 ---
 
-# Especialidades
+<div class="page-intro-callout">
+<p class="page-intro-eyebrow">Visão de escopo</p>
+<p>As seções abaixo mostram os domínios técnicos em que construo profundidade por meio de entrega, experimentação e evolução contínua de plataformas.</p>
+</div>
 
-Tecnologias evoluem constantemente.
-
-Princípios sólidos de engenharia permanecem.
-
-Ao longo de mais de vinte anos de carreira, atuei em diferentes tecnologias, linguagens, plataformas e segmentos de mercado. Hoje meu trabalho está concentrado no desenho de plataformas digitais corporativas, combinando arquitetura de software, computação em nuvem e Adobe Experience Cloud para entregar soluções escaláveis e preparadas para evoluir.
-
-Mais do que listar tecnologias, esta página apresenta as áreas onde desenvolvi experiência prática através de projetos reais, liderança técnica e aprendizado contínuo.
-
----
-
-# Principais Áreas de Atuação
+## Principais Áreas de Atuação
 
 Cada área abaixo representa uma especialização construída através de projetos corporativos, pesquisa técnica e experiência prática.
 
----
+<div class="expertise-area-grid">
 
-## Adobe Experience Cloud
+<article class="expertise-area">
+
+### Adobe Experience Cloud
 
 Desenvolvimento de Plataformas de Experiência Digital utilizando o ecossistema Adobe.
 
-**Principais Tecnologias**
+<p class="expertise-meta-title">Principais Tecnologias</p>
 
 - Adobe Experience Manager (AEM)
 - AEM as a Cloud Service
@@ -43,30 +54,32 @@ Desenvolvimento de Plataformas de Experiência Digital utilizando o ecossistema 
 - Adobe App Builder
 - Adobe I/O
 
-**Experiência**
+<p class="expertise-meta-title">Experiência</p>
 
 Projetos corporativos nos segmentos de mídia, educação e esportes.
 
-**Projetos Relacionados**
+<p class="expertise-meta-title">Projetos Relacionados</p>
 
 - Portal O TEMPO
 - Palmeiras Digital Assets
-- Yduqs – Automação de Peças com IA
-- Cogna – Plataforma Edge Delivery Services
+- Yduqs - Automação de Peças com IA
+- Cogna - Plataforma Edge Delivery Services
 
-**Artigos Relacionados**
+<p class="expertise-meta-title">Artigos Relacionados</p>
 
 Artigos técnicos sobre AEM, Edge Delivery Services, Oak Indexes, Lucene e Arquitetura em Nuvem.
 
-→ Explorar Adobe Experience Cloud
+[Explorar Adobe Experience Cloud](../case-studies/)
 
----
+</article>
 
-## Arquitetura de Software
+<article class="expertise-area">
+
+### Arquitetura de Software
 
 Projetando sistemas preparados para evoluir, escalar e atender às necessidades do negócio.
 
-**Principais Áreas**
+<p class="expertise-meta-title">Principais Áreas</p>
 
 - Arquitetura de Soluções
 - Arquitetura Corporativa
@@ -77,19 +90,21 @@ Projetando sistemas preparados para evoluir, escalar e atender às necessidades 
 - Governança Técnica
 - Padrões de Engenharia
 
-**Experiência**
+<p class="expertise-meta-title">Experiência</p>
 
 Mais de vinte anos projetando e evoluindo plataformas corporativas.
 
-→ Explorar Arquitetura de Software
+[Explorar Arquitetura de Software](../case-studies/)
 
----
+</article>
 
-## Plataformas Digitais (DXP)
+<article class="expertise-area">
+
+### Plataformas Digitais (DXP)
 
 Construção de plataformas modernas voltadas para conteúdo, marketing e experiência digital.
 
-**Principais Áreas**
+<p class="expertise-meta-title">Principais Áreas</p>
 
 - Enterprise CMS
 - Headless CMS
@@ -99,21 +114,23 @@ Construção de plataformas modernas voltadas para conteúdo, marketing e experi
 - Gestão de Ativos Digitais
 - Plataformas Multi-site
 
-**Projetos Relacionados**
+<p class="expertise-meta-title">Projetos Relacionados</p>
 
 - Portal O TEMPO
 - Cogna
 - Palmeiras
 
-→ Explorar Plataformas Digitais
+[Explorar Plataformas Digitais](../case-studies/)
 
----
+</article>
 
-## Cloud Engineering & DevOps
+<article class="expertise-area">
+
+### Engenharia de Nuvem e DevOps
 
 Construção de plataformas modernas utilizando automação, integração contínua e infraestrutura em nuvem.
 
-**Principais Áreas**
+<p class="expertise-meta-title">Principais Áreas</p>
 
 - CI/CD
 - Automação de Build
@@ -122,15 +139,17 @@ Construção de plataformas modernas utilizando automação, integração contí
 - Deploy Automatizado
 - Performance
 
-→ Explorar Cloud Engineering
+[Explorar Engenharia de Nuvem](../case-studies/)
 
----
+</article>
 
-## Engenharia Backend
+<article class="expertise-area">
+
+### Engenharia Backend
 
 Minha formação técnica foi construída sobre desenvolvimento de software.
 
-**Principais Tecnologias**
+<p class="expertise-meta-title">Principais Tecnologias</p>
 
 - Java
 - C#
@@ -143,15 +162,17 @@ Minha formação técnica foi construída sobre desenvolvimento de software.
 - Apache Sling
 - OSGi
 
-→ Explorar Engenharia Backend
+[Explorar Engenharia Backend](../case-studies/)
 
----
+</article>
 
-## Engenharia Front-end
+<article class="expertise-area">
+
+### Engenharia Front-end
 
 Desenvolvimento de interfaces modernas com foco em performance, acessibilidade e manutenção.
 
-**Principais Tecnologias**
+<p class="expertise-meta-title">Principais Tecnologias</p>
 
 - HTML5
 - CSS3
@@ -163,15 +184,17 @@ Desenvolvimento de interfaces modernas com foco em performance, acessibilidade e
 - Web Performance
 - Acessibilidade
 
-→ Explorar Engenharia Front-end
+[Explorar Engenharia Front-end](../case-studies/)
 
----
+</article>
 
-## Liderança Técnica
+<article class="expertise-area">
+
+### Liderança Técnica
 
 Liderando equipes e projetos de engenharia para entregar soluções sustentáveis e de alta qualidade.
 
-**Principais Responsabilidades**
+<p class="expertise-meta-title">Principais Responsabilidades</p>
 
 - Liderança Técnica
 - Definição de Arquitetura
@@ -182,15 +205,17 @@ Liderando equipes e projetos de engenharia para entregar soluções sustentávei
 - Scrum
 - Planejamento Técnico
 
-→ Explorar Liderança Técnica
+[Explorar Liderança Técnica](../career/)
 
----
+</article>
 
-## Compartilhamento de Conhecimento
+<article class="expertise-area">
+
+### Compartilhamento de Conhecimento
 
 Acredito que conhecimento técnico só gera valor quando é compartilhado.
 
-Minhas contribuições incluem:
+<p class="expertise-meta-title">Minhas Contribuições Incluem</p>
 
 - Artigos Técnicos
 - Documentação de Arquitetura
@@ -201,11 +226,14 @@ Minhas contribuições incluem:
 
 Compartilhar conhecimento faz parte da minha forma de trabalhar.
 
-→ Explorar Produção Técnica
+[Explorar Produção Técnica](../writing/)
 
----
+</article>
 
-# Mapa de Especialidades
+</div>
+
+
+## Mapa de Especialidades
 
 Meu trabalho conecta diferentes disciplinas da engenharia de software.
 
@@ -216,7 +244,7 @@ Arquitetura de Software
         │
         ├── Plataformas Digitais
         │
-        ├── Cloud Engineering
+        ├── Engenharia de Nuvem
         │
         ├── Engenharia Backend
         │
@@ -227,14 +255,15 @@ Arquitetura de Software
 
 Essas áreas evoluem juntas em praticamente todos os projetos dos quais participo.
 
----
 
-# Continue Explorando
+## Continue Explorando
 
 Quer ver essas tecnologias aplicadas em projetos reais?
 
-→ Estudos de Caso
+[Estudos de Caso](../case-studies/)
 
 Ou conhecer minha forma de pensar sobre engenharia de software?
 
-→ Artigos Técnicos
+[Artigos Técnicos](../writing/)
+
+---

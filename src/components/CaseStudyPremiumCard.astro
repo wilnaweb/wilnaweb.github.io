@@ -1,0 +1,28 @@
+---
+import CTAButton from './CTAButton.astro';
+
+interface Props {
+  title: string;
+  description: string;
+  role: string;
+  href: string;
+  ctaLabel: string;
+}
+
+const { title, description, role, href, ctaLabel } = Astro.props;
+---
+
+<article class="group relative overflow-hidden rounded-2xl border border-[color-mix(in_srgb,var(--color-info)_34%,var(--color-border))] bg-[linear-gradient(145deg,color-mix(in_srgb,var(--color-info)_10%,var(--color-surface))_0%,var(--color-surface)_100%)] p-5 shadow-[0_14px_30px_color-mix(in_srgb,#020617_16%,transparent)] transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_20px_40px_color-mix(in_srgb,#020617_22%,transparent)]">
+  <div class="absolute -right-8 -top-8 h-20 w-20 rounded-full bg-[color-mix(in_srgb,var(--color-info)_18%,transparent)] blur-2xl" aria-hidden="true"></div>
+
+  <h3 class="relative m-0 text-xl font-semibold leading-tight tracking-[-0.01em] text-[var(--color-text-primary)]">{title}</h3>
+  <p class="relative mt-3 mb-0 text-sm leading-relaxed text-[color-mix(in_srgb,var(--color-text-primary)_82%,var(--color-text-secondary))]">{description}</p>
+
+  <p class="relative mt-4 mb-0 inline-flex rounded-full border border-[color-mix(in_srgb,var(--color-info)_46%,var(--color-border))] bg-[color-mix(in_srgb,var(--color-info)_13%,var(--color-surface))] px-3 py-1 text-xs font-medium tracking-[0.01em] text-[var(--color-text-primary)]">
+    {role}
+  </p>
+
+  <div class="relative mt-5">
+    <CTAButton href={href} label={ctaLabel} variant="portfolio" />
+  </div>
+</article>

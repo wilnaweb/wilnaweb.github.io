@@ -1,23 +1,84 @@
-<!doctype html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro Basics</title>
-	</head>
-	<body>
-		<slot />
-	</body>
-</html>
+---
+import '../styles/global.css';
+import { replaceLocaleInPath } from '../lib/routing';
+import { DEFAULT_LOCALE, HTML_LANG, LOCALES, OG_LOCALE, type Locale } from '../lib/site';
 
-<style>
-	html,
-	body {
-		margin: 0;
-		width: 100%;
-		height: 100%;
-	}
-</style>
+interface Props {
+  title: string;
+  description: string;
+  locale: Locale;
+  pathname: string;
+}
+
+const { title, description, locale, pathname } = Astro.props;
+
+const siteUrl = Astro.site ?? new URL(Astro.url.origin);
+const normalizedPathname = pathname || Astro.url.pathname;
+
+const pageTitle = title.includes('WIL.DEV') ? title : `${title} | WIL.DEV`;
+const canonicalUrl = new URL(normalizedPathname, siteUrl).toString();
+const alternateEntries = LOCALES.map((entryLocale) => ({
+  hreflang: HTML_LANG[entryLocale],
+  href: new URL(replaceLocaleInPath(normalizedPathname, entryLocale), siteUrl).toString()
+}));
+const xDefaultHref = new URL(replaceLocaleInPath(normalizedPathname, DEFAULT_LOCALE), siteUrl).toString();
+const ogImage = new URL('/og-default.svg', siteUrl).toString();
+
+const schemaPayload = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'WebSite',
+      name: 'WIL.DEV',
+      url: new URL('/', siteUrl).toString(),
+      inLanguage: HTML_LANG[locale]
+    },
+    {
+      '@type': 'Person',
+      name: 'Wilson Cavalcante',
+      url: canonicalUrl,
+      jobTitle: 'Software Architect',
+      inLanguage: HTML_LANG[locale]
+    }
+  ]
+};
+---
+
+<!doctype html>
+<html lang={HTML_LANG[locale]}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="generator" content={Astro.generator} />
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonicalUrl} />
+    {alternateEntries.map((alternate) => (
+      <link rel="alternate" hreflang={alternate.hreflang} href={alternate.href} />
+    ))}
+    <link rel="alternate" hreflang="x-default" href={xDefaultHref} />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonicalUrl} />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:site_name" content="WIL.DEV" />
+    <meta property="og:locale" content={OG_LOCALE[locale]} />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={pageTitle} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImage} />
+
+    <title>{pageTitle}</title>
+    <script type="application/ld+json" set:html={JSON.stringify(schemaPayload)}></script>
+  </head>
+  <body class="bg-[var(--color-background)] text-[var(--color-text-primary)] antialiased">
+    <div class="site-background" aria-hidden="true"></div>
+    <main class="relative mx-auto min-h-screen w-full px-5 py-8 md:px-8 md:py-12">
+      <slot />
+    </main>
+  </body>
+</html>

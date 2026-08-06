@@ -1,0 +1,81 @@
+---
+interface Props {
+  href: string;
+  label: string;
+  variant?: 'primary' | 'secondary' | 'ghost' | 'editorial' | 'contact' | 'highlight' | 'portfolio';
+  target?: '_self' | '_blank';
+  rel?: string;
+}
+
+const { href, label, variant = 'primary', target = '_self', rel } = Astro.props;
+
+const variantClass = {
+  primary:
+    'border-[var(--color-accent)] bg-[var(--color-accent)] text-white hover:bg-[var(--color-accent-hover)] hover:border-[var(--color-accent-hover)]',
+  secondary:
+    'border-[var(--color-border)] bg-[var(--color-surface)] text-[var(--color-text-primary)] hover:border-[var(--color-accent)] hover:bg-[var(--color-surface-elevated)]',
+  ghost:
+    'border-transparent bg-transparent text-[var(--color-text-secondary)] hover:text-[var(--color-text-primary)] hover:bg-[var(--color-surface)]',
+  editorial:
+    'border-[color-mix(in_srgb,var(--color-accent)_52%,var(--color-border))] bg-[color-mix(in_srgb,var(--color-accent)_12%,var(--color-surface))] text-[var(--color-text-primary)] hover:border-[var(--color-accent)] hover:bg-[color-mix(in_srgb,var(--color-accent)_20%,var(--color-surface))]',
+  contact:
+    'border-[color-mix(in_srgb,var(--color-success)_56%,var(--color-border))] bg-[color-mix(in_srgb,var(--color-success)_10%,var(--color-surface))] text-[var(--color-text-primary)] hover:border-[var(--color-success)] hover:bg-[color-mix(in_srgb,var(--color-success)_18%,var(--color-surface))]',
+  highlight:
+    'border-[color-mix(in_srgb,var(--color-accent)_62%,var(--color-border))] bg-[color-mix(in_srgb,var(--color-accent)_18%,var(--color-surface))] text-[var(--color-text-primary)] hover:border-[var(--color-accent)] hover:bg-[color-mix(in_srgb,var(--color-accent)_28%,var(--color-surface))]',
+  portfolio:
+    'border-[color-mix(in_srgb,var(--color-info)_58%,var(--color-border))] bg-[color-mix(in_srgb,var(--color-info)_13%,var(--color-surface))] text-[var(--color-text-primary)] hover:border-[var(--color-info)] hover:bg-[color-mix(in_srgb,var(--color-info)_22%,var(--color-surface))]'
+}[variant];
+
+const showTrailingIcon = variant !== 'ghost';
+const external = target === '_blank';
+const computedRel = target === '_blank' ? rel ?? 'noopener noreferrer' : rel;
+
+function getIconPath() {
+  if (external) {
+    return 'M14 3h7v7M21 3l-9 9M19 14v7H3V5h7';
+  }
+
+  if (variant === 'contact') {
+    return 'M3 6h18v12H3zM3 7l9 7 9-7';
+  }
+
+  if (variant === 'editorial') {
+    return 'M5 5h14v14H5zM8 9h8M8 12h8M8 15h5';
+  }
+
+  if (variant === 'portfolio') {
+    return 'M4 16l5-5 4 4 7-7';
+  }
+
+  return 'M5 12h14M13 6l6 6-6 6';
+}
+---
+
+<a
+  href={href}
+  target={target}
+  rel={computedRel}
+  class:list={[
+    'group inline-flex items-center justify-center rounded-full border px-4 py-2 text-sm font-semibold no-underline transition-all duration-200 md:px-5 md:py-2.5 md:text-[0.95rem]',
+    'hover:-translate-y-px active:translate-y-0',
+    'shadow-[inset_0_0_0_1px_color-mix(in_srgb,var(--color-text-primary)_10%,transparent)]',
+    'focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--color-focus)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--color-background)]',
+    variantClass
+  ]}
+>
+  <span>{label}</span>
+  {showTrailingIcon ? (
+    <svg
+      aria-hidden="true"
+      viewBox="0 0 24 24"
+      class="ml-1.5 h-3.5 w-3.5 transition-transform duration-200 group-hover:translate-x-0.5 md:ml-2 md:h-4 md:w-4"
+      fill="none"
+      stroke="currentColor"
+      stroke-width="1.85"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    >
+      <path d={getIconPath()} />
+    </svg>
+  ) : null}
+</a>

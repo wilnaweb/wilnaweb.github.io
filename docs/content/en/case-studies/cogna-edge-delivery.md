@@ -7,13 +7,10 @@ status: approved
 lastUpdated: 2026-08-05
 ---
 
-# Cogna – Edge Delivery Platform
+Accelerating Marketing Campaign Delivery with Adobe Edge Delivery Services
 
-## Accelerating Marketing Campaign Delivery with Adobe Edge Delivery Services
 
----
-
-# Overview
+## Overview
 
 Cogna, one of Brazil's largest education groups, frequently launches marketing campaigns for enrollment, re-enrollment and seasonal promotions across multiple educational brands.
 
@@ -21,17 +18,20 @@ Traditional website development workflows could not keep pace with the speed req
 
 The objective of the project was to create a reusable landing page platform using **Adobe Edge Delivery Services (EDS)**, enabling rapid content creation while maintaining governance, design consistency and performance.
 
----
 
-# Client
+## Client
 
 **Cogna Educação**
 
 Industry: Education
 
----
 
-# My Role
+## Company
+
+**Netbiis**
+
+
+## My Role
 
 - Software Architect
 - Tech Lead
@@ -39,9 +39,8 @@ Industry: Education
 
 I was responsible for solution architecture, technical leadership, platform design and engineering coordination throughout the project.
 
----
 
-# Business Challenge
+## Business Challenge
 
 Marketing teams needed to publish new landing pages within very short deadlines.
 
@@ -57,9 +56,8 @@ The platform had to provide:
 
 The solution also needed to support multiple educational brands while reducing development effort.
 
----
 
-# Solution
+## Solution
 
 A reusable landing page platform was built using **Adobe Edge Delivery Services**.
 
@@ -69,18 +67,17 @@ Marketing teams could assemble new pages using approved components while develop
 
 This approach significantly reduced development time and improved consistency across campaigns.
 
----
 
-# Technologies
+## Technologies
 
-## Adobe
+### Adobe
 
 - Adobe Edge Delivery Services
 - Universal Editor
 - Adobe Experience Manager as a Cloud Service
 - Document-Based Authoring
 
-## Engineering
+### Engineering
 
 - HTML
 - CSS
@@ -89,9 +86,8 @@ This approach significantly reduced development time and improved consistency ac
 - GitHub
 - CI/CD
 
----
 
-# Architecture Responsibilities
+## Architecture Responsibilities
 
 My responsibilities included:
 
@@ -104,9 +100,8 @@ My responsibilities included:
 - Performance Strategy
 - Technical Coordination
 
----
 
-# Key Challenges
+## Key Challenges
 
 One of the main challenges was balancing flexibility for marketing teams with technical governance.
 
@@ -114,9 +109,8 @@ The platform needed to allow rapid content creation while ensuring that every la
 
 Another challenge was designing reusable blocks that could support different campaigns without requiring custom development for every new landing page.
 
----
 
-# Results
+## Results
 
 The project delivered:
 
@@ -130,17 +124,15 @@ The project delivered:
 
 The platform established a scalable foundation for future marketing initiatives across multiple educational brands.
 
----
 
-# Engineering Takeaways
+## Engineering Takeaways
 
 Reusable platforms create far more value than isolated projects.
 
 By investing in architecture and reusable components, organizations reduce delivery time, improve consistency and enable teams to scale their digital operations more efficiently.
 
----
 
-# Technologies Related
+## Technologies Related
 
 - Adobe Edge Delivery Services
 - Universal Editor
@@ -149,29 +141,23 @@ By investing in architecture and reusable components, organizations reduce deliv
 - Front-End Architecture
 - Software Architecture
 
----
 
-# Related Content
+## Related Content
 
-## Related Expertise
+### Related Expertise
 
-Adobe Experience Cloud
+- Adobe Experience Cloud
+- Digital Experience Platforms
+- Software Architecture
+- Front-End Engineering
 
-Digital Experience Platforms
 
-Software Architecture
+### Related Articles
 
-Front-End Engineering
+- [Adobe Edge Delivery Services: A Technical Perspective for Developers](../writing/#adobe-edge-delivery-services-a-technical-perspective-for-developers)
+- [CORS in AEM as a Cloud Service for GraphQL (POST): What the Documentation Doesn't Tell You](../writing/#cors-in-aem-as-a-cloud-service-for-graphql-post-what-the-documentation-doesnt-tell-you)
 
----
-
-## Related Articles
-
-- Adobe Edge Delivery Services: A Technical Perspective for Developers
-- CORS in AEM as a Cloud Service for GraphQL (POST): What the Documentation Doesn't Tell You
-
----
 
 ## Next Case Study
 
-→ Irani Financial Reports Platform
+[Irani Financial Reports Platform](../irani/)

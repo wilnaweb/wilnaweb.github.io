@@ -6,21 +6,27 @@ description: Continuous learning, certifications, technical training and profess
 language: en
 status: approved
 lastUpdated: 2026-08-05
+heroEyebrow: Learning
+heroSubtitle: Continuous development across architecture, cloud and Adobe ecosystems.
+heroDescription: Training, certifications and hands-on exploration that keep technical decisions current and practical.
+quickLinks:
+  - title: Writing
+    description: Published notes where learning outcomes are translated into practical guidance.
+    href: /writing
+    ctaLabel: Read insights
+  - title: Career
+    description: Timeline showing how continuous study influenced role progression.
+    href: /career
+    ctaLabel: View career path
+  - title: Contact
+    description: Exchange ideas about certifications, study roadmaps and technical communities.
+    href: /contact
+    ctaLabel: Connect
 ---
 
-# Learning
+This section summarizes what I am currently studying and how that learning is translated into practical engineering outcomes.
 
-## Continuous learning is part of engineering.
-
-Technology evolves every day.
-
-Staying current requires curiosity, discipline and continuous study. Throughout my career, I have invested in technical training, certifications, bootcamps and hands-on experimentation to keep expanding my knowledge and delivering better software solutions.
-
-Rather than collecting certificates, I focus on learning technologies that can be applied to real-world engineering challenges.
-
----
-
-# Current Areas of Study
+## Current Areas of Study
 
 My current learning journey is focused on the following areas:
 
@@ -37,9 +43,9 @@ My current learning journey is focused on the following areas:
 
 ---
 
-# Certifications
+## Certifications
 
-## Blip Academy
+### Blip Academy
 
 ### Blip Platform Certification
 
@@ -73,15 +79,15 @@ Training covering UX concepts and best practices within the Blip ecosystem.
 
 ---
 
-# Adobe Learning
+### Adobe Learning
 
-## Adobe Real-Time CDP Bootcamp
+#### Adobe Real-Time CDP Bootcamp
 
 Technical training focused on Adobe Experience Platform and Real-Time Customer Data Platform.
 
 ---
 
-# Professional Training
+### Professional Training
 
 Throughout my career I have completed technical and professional training in areas including:
 
@@ -95,7 +101,7 @@ Throughout my career I have completed technical and professional training in are
 
 ---
 
-# Learning Philosophy
+### Learning Philosophy
 
 I believe learning should be continuous and practical.
 
@@ -105,7 +111,7 @@ For me, studying is not a separate activity—it is part of the software develop
 
 ---
 
-# Knowledge Sharing
+### Knowledge Sharing
 
 Learning becomes more valuable when shared.
 
@@ -115,7 +121,7 @@ Teaching and writing are essential parts of my own learning process.
 
 ---
 
-# Currently Exploring
+### Currently Exploring
 
 My current areas of exploration include:
 
@@ -129,12 +135,12 @@ My current areas of exploration include:
 
 ---
 
-# Explore More
+## Explore More
 
 Interested in seeing how these technologies are applied in real-world projects?
 
-→ Explore Case Studies
+[Explore Case Studies](../case-studies/)
 
 Or read the technical articles where I share practical experiences and engineering insights.
 
-→ Explore Writing
+[Explore Writing](../writing/)

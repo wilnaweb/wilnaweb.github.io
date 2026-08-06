@@ -1,194 +1,211 @@
 ---
-title: Case Studies
+title: Case Studies 
 navigation: Case Studies
 slug: /case-studies
 description: A selection of enterprise projects covering Adobe Experience Cloud, Software Architecture, Digital Experience Platforms and Technical Leadership.
 language: en
 status: approved
 lastUpdated: 2026-08-05
+heroEyebrow: Engineering Portfolio
+heroSubtitle: Real projects, applied solutions and measurable outcomes.
+heroDescription: A selected set of implementations involving Adobe Experience Cloud, software architecture and digital platform evolution.
+caseCardCtaLabel: Open case study
 ---
 
-# Case Studies
+## Featured Projects
 
-Technology creates value only when it solves real business problems.
+<div class="expertise-area-grid">
 
-The projects presented here demonstrate how architecture, engineering and technical leadership were applied to build scalable digital platforms, modernize enterprise ecosystems and support business transformation.
+<article class="expertise-area">
 
-Each case study describes the business context, technical challenges, architectural decisions, technologies used and the results achieved.
+### Portal O TEMPO
 
----
-
-# Featured Projects
-
-## Portal O TEMPO
-
-**Client**
+<p class="expertise-meta-title">Client</p>
 
 Grupo O TEMPO
 
-**Industry**
+<p class="expertise-meta-title">Industry</p>
 
 Media
 
-**Role**
+<p class="expertise-meta-title">Role</p>
 
 Software Architect • Tech Lead • Systems Analyst
 
-**Technologies**
+<p class="expertise-meta-title">Technologies</p>
 
 Adobe Experience Manager as a Cloud Service, Edge Delivery Services, Universal Editor, GraphQL, HTL, Sling Models, OSGi, Cloud Manager.
 
 Migration of nearly two million news articles to a modern Adobe Experience Manager platform, enabling a new digital publishing experience for journalists and readers.
 
-→ View Case Study
+[View Case Study](./case-studies/o-tempo/)
 
----
+</article>
 
-## Palmeiras Digital Assets
+<article class="expertise-area">
 
-**Client**
+
+### Palmeiras Digital Assets
+
+<p class="expertise-meta-title">Client</p>
 
 Sociedade Esportiva Palmeiras
 
-**Industry**
+<p class="expertise-meta-title">Industry</p>
 
 Sports
 
-**Role**
+<p class="expertise-meta-title">Role</p>
 
 Software Architect • Tech Lead • Systems Analyst
 
-**Technologies**
+<p class="expertise-meta-title">Technologies</p>
 
 Adobe Experience Manager Assets, Dynamic Media, Adobe Brand Portal, APIs, OSGi.
 
 Enterprise Digital Asset Management platform centralizing photos, videos and communication assets while enabling secure distribution to internal teams and media partners.
 
-→ View Case Study
+[View Case Study](./case-studies/palmeiras/)
 
----
+</article>
 
-## Cogna – Marketing Asset Automation
+<article class="expertise-area">
 
-**Client**
 
-Cogna Educação
+### Yduqs – Marketing Asset Automation
 
-**Industry**
+<p class="expertise-meta-title">Client</p>
+
+Yduqs
+
+<p class="expertise-meta-title">Industry</p>
 
 Education
 
-**Role**
+<p class="expertise-meta-title">Role</p>
 
 Software Architect • Tech Lead • Systems Analyst
 
-**Technologies**
+<p class="expertise-meta-title">Technologies</p>
 
 Adobe Experience Manager Assets, Adobe Firefly, Generative AI, APIs.
 
 Automation platform capable of generating multiple marketing campaign variations from a single communication template using Adobe Firefly.
 
-→ View Case Study
+[View Case Study](./case-studies/yduqs-firefly/)
 
----
+</article>
 
-## Cogna – Edge Delivery Platform
+<article class="expertise-area">
 
-**Client**
+
+### Cogna – Edge Delivery Platform
+
+<p class="expertise-meta-title">Client</p>
 
 Cogna Educação
 
-**Industry**
+<p class="expertise-meta-title">Industry</p>
 
 Education
 
-**Role**
+<p class="expertise-meta-title">Role</p>
 
 Software Architect • Tech Lead • Systems Analyst
 
-**Technologies**
+<p class="expertise-meta-title">Technologies</p>
 
 Adobe Edge Delivery Services, Universal Editor, AEM as a Cloud Service.
 
 Development of a reusable landing page platform allowing marketing teams to launch campaigns quickly while maintaining governance, consistency and performance.
 
-→ View Case Study
+[View Case Study](./case-studies/cogna-edge-delivery/)
 
----
+</article>
 
-## Irani Financial Reports Platform
+<article class="expertise-area">
 
-**Client**
+
+### Irani Financial Reports Platform
+
+<p class="expertise-meta-title">Client</p>
 
 Irani Papel e Embalagem S.A.
 
-**Industry**
+<p class="expertise-meta-title">Industry</p>
 
 Financial Services / Manufacturing
 
-**Role**
+<p class="expertise-meta-title">Role</p>
 
 Software Architect • Tech Lead
 
-**Technologies**
+<p class="expertise-meta-title">Technologies</p>
 
 PHP, WordPress, MySQL.
 
 Development of a corporate platform for publishing, managing and distributing financial reports, sustainability reports and mandatory corporate disclosures.
 
-→ View Case Study
+[View Case Study](./case-studies/irani/)
 
----
+</article>
 
-## Razões Para Acreditar
+<article class="expertise-area">
 
-**Client**
+### Razões Para Acreditar
+
+<p class="expertise-meta-title">Client</p>
 
 Razões Para Acreditar
 
-**Industry**
+<p class="expertise-meta-title">Industry</p>
 
 Digital Media
 
-**Role**
+<p class="expertise-meta-title">Role</p>
 
 Software Architect • Tech Lead
 
-**Technologies**
+<p class="expertise-meta-title">Technologies</p>
 
 WordPress, Google Analytics, Google Ad Manager, Cloud Infrastructure, CDN.
 
 Long-term evolution of one of Brazil's largest positive news platforms, focusing on scalability, performance, digital publishing and advertising operations.
 
-→ View Case Study
+[View Case Study](./case-studies/razoes-para-acreditar/)
 
----
+</article>
 
-## Find Motoboy
+<article class="expertise-area">
 
-**Client**
+
+### Find Motoboy
+
+<p class="expertise-meta-title">Client</p>
 
 Find Motoboy
 
-**Industry**
+<p class="expertise-meta-title">Industry</p>
 
 Logistics
 
-**Role**
+<p class="expertise-meta-title">Role</p>
 
 Software Architect • Tech Lead • Systems Analyst
 
-**Technologies**
+<p class="expertise-meta-title">Technologies</p>
 
 .NET, SQL Server, REST APIs.
 
 Architecture and development of one of Brazil's first on-demand motorcycle delivery platforms, including operational systems, APIs and administrative backoffice.
 
-→ View Case Study
+[View Case Study](./case-studies/find-motoboy/)
 
----
+</article>
 
-# Engineering Principles
+</div>
+
+## Engineering Principles
 
 Although each project belongs to a different industry, they share the same engineering principles.
 
@@ -199,14 +216,13 @@ Although each project belongs to a different industry, they share the same engin
 - Continuous evolution.
 - Knowledge sharing.
 
----
 
-# Explore More
+## Explore More
 
 Interested in the technologies behind these projects?
 
-→ Explore Expertise
+[Explore Expertise](../expertise/)
 
 Want to learn more about my engineering approach?
 
-→ Read Technical Articles
+[Read Technical Articles](../writing/)

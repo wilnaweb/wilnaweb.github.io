@@ -7,13 +7,10 @@ status: approved
 lastUpdated: 2026-08-05
 ---
 
-# Razões Para Acreditar
+Sustaining and Evolving One of Brazil's Largest Digital Publishing Platforms
 
-## Sustaining and Evolving One of Brazil's Largest Digital Publishing Platforms
 
----
-
-# Overview
+## Overview
 
 Razões Para Acreditar became one of Brazil's most influential positive news platforms, reaching millions of readers and gaining visibility across major media outlets and social networks.
 
@@ -21,29 +18,25 @@ Throughout several years, the platform continuously evolved, expanding its audie
 
 My work focused on the long-term technical evolution of the platform, ensuring stability, scalability and continuous improvement while supporting the client's business growth.
 
----
 
-# Client
+## Client
 
 **Razões Para Acreditar**
 
 Industry: Digital Media
 
----
 
-# Company
+## Company
 
-**Gasoline Digital**
+**Gasoline.Digital**
 
----
 
-# Period
+## Period
 
 2014 – 2022
 
----
 
-# My Role
+## My Role
 
 - Software Architect
 - Tech Lead
@@ -51,9 +44,8 @@ Industry: Digital Media
 
 I was responsible for the technical architecture, platform evolution, engineering leadership and day-to-day relationship with the client.
 
----
 
-# Business Challenge
+## Business Challenge
 
 Unlike traditional software projects, this was a long-term digital platform that required continuous evolution.
 
@@ -69,9 +61,8 @@ The main challenges included:
 
 The platform had to evolve without interrupting daily editorial operations.
 
----
 
-# Solution
+## Solution
 
 The platform was continuously improved using WordPress as its content management system.
 
@@ -79,32 +70,30 @@ Beyond application development, the project included infrastructure management, 
 
 The engineering team worked closely with the client to deliver new features, improve reliability and ensure that the platform could sustain continuous audience growth.
 
----
 
-# Technologies
+## Technologies
 
-## Platform
+### Platform
 
 - WordPress
 - PHP
 - MySQL
 
-## Infrastructure
+### Infrastructure
 
 - Linux
 - Apache / Nginx
 - CDN
 - Cloud Infrastructure
 
-## Marketing & Analytics
+### Marketing & Analytics
 
 - Google Analytics
 - Google Ad Manager (DFP)
 - Programmatic Advertising
 
----
 
-# Architecture Responsibilities
+## Architecture Responsibilities
 
 My responsibilities included:
 
@@ -117,9 +106,8 @@ My responsibilities included:
 - Client Relationship
 - Development Coordination
 
----
 
-# Key Challenges
+## Key Challenges
 
 One of the biggest challenges was maintaining a platform that operated continuously while receiving constant improvements.
 
@@ -127,9 +115,8 @@ Performance optimization became increasingly important as audience numbers grew,
 
 The project also demanded close collaboration between engineering, editorial and business teams to ensure that technical decisions supported the organization's long-term goals.
 
----
 
-# Results
+## Results
 
 The project delivered:
 
@@ -141,9 +128,8 @@ The project delivered:
 - Continuous delivery of new features.
 - Technical support for the growth of one of Brazil's most recognized digital publishing platforms.
 
----
 
-# Engineering Takeaways
+## Engineering Takeaways
 
 Building software is only the beginning.
 
@@ -151,9 +137,8 @@ The real challenge is ensuring that a platform continues to evolve, perform reli
 
 Long-term engineering requires discipline, continuous improvement and close collaboration with the business.
 
----
 
-# Technologies Related
+## Technologies Related
 
 - WordPress
 - PHP
@@ -162,22 +147,17 @@ Long-term engineering requires discipline, continuous improvement and close coll
 - Performance Engineering
 - Technical Leadership
 
----
 
-# Related Content
+## Related Content
 
-## Related Expertise
+### Related Expertise
 
-Software Architecture
+- Software Architecture
+- Cloud Engineering
+- Technical Leadership
+- Enterprise Content Management
 
-Cloud Engineering
-
-Technical Leadership
-
-Enterprise Content Management
-
----
 
 ## Next Case Study
 
-→ Find Motoboy
+[Find Motoboy](../find-motoboy/)

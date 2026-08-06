@@ -5,22 +5,30 @@ slug: /career
 description: Professional timeline covering more than twenty years of experience in software engineering, architecture and technical leadership.
 language: en
 status: approved
-lastUpdated: 2026-08-05
+lastUpdated: 2026-08-06
+heroEyebrow: Career
+heroSubtitle: From software development to architecture and technical leadership.
+heroDescription: A timeline of roles, projects and responsibilities across enterprise digital platform initiatives.
+quickLinks:
+  - title: Case Studies
+    description: Projects that represent major architectural and delivery milestones.
+    href: /case-studies
+    ctaLabel: Explore projects
+  - title: About
+    description: Broader context on values, approach and professional focus.
+    href: /about
+    ctaLabel: Learn more
+  - title: Contact
+    description: Discuss open roles, advisory opportunities or collaboration.
+    href: /contact
+    ctaLabel: Reach out
 ---
 
-# Career
+The timeline below highlights the progression of roles, responsibilities, and platform challenges that shaped my career.
 
-## More than 20 years building software, leading teams and designing digital platforms.
+## Timeline
 
-My professional journey reflects a continuous evolution from software development to software architecture and technical leadership.
-
-Throughout this journey, I have worked across software engineering, digital marketing, enterprise content management, cloud platforms and, more recently, Adobe Experience Cloud.
-
----
-
-# Timeline
-
-## Netbiis | Data Technology Experiences
+### Netbiis | Data Technology Experiences
 
 **Software Engineer / Software Architect / Tech Lead**
 
@@ -42,14 +50,14 @@ Leading enterprise projects based on Adobe Experience Cloud, with a strong focus
 
 ### Featured Projects
 
-- Portal O TEMPO
-- Palmeiras Digital Assets
-- Yduqs – Marketing Asset Automation
-- Cogna – Edge Delivery Platform
+- [Portal O TEMPO](../case-studies/o-tempo/)
+- [Palmeiras Digital Assets](../case-studies/palmeiras/)
+- [Yduqs – Marketing Asset Automation](../case-studies/yduqs-firefly/)
+- [Cogna – Edge Delivery Platform](../case-studies/cogna-edge-delivery/)
 
 ---
 
-## Gasoline Digital
+### Gasoline Digital
 
 **Operations & Technology Manager**
 
@@ -61,9 +69,9 @@ Managed multidisciplinary teams while working directly with clients, defining te
 
 ### Featured Projects
 
-- Razões Para Acreditar
-- Irani Financial Reports Platform
-- Find Motoboy
+- [Razões Para Acreditar](../case-studies/razoes-para-acreditar/)
+- [Irani Financial Reports Platform](../case-studies/irani/)
+- [Find Motoboy](../case-studies/find-motoboy/)
 - Hypeness
 - Casal Sem Vergonha
 - Engenharia 360
@@ -72,7 +80,7 @@ Managed multidisciplinary teams while working directly with clients, defining te
 
 ---
 
-## Havas Worldwide
+### Havas Worldwide
 
 **Project Manager**
 
@@ -90,7 +98,7 @@ Managed digital projects for major international brands using agile methodologie
 
 ---
 
-## Ferrari Ferramentas
+### Ferrari Ferramentas
 
 **Software Developer**
 
@@ -100,7 +108,7 @@ Led the development of the company's B2B and B2C e-commerce platform.
 
 ---
 
-## Maya
+### Maya
 
 **Project Manager**
 
@@ -117,7 +125,7 @@ Managed digital projects from commercial proposal through delivery, coordinating
 
 ---
 
-## OgilvyOne
+### OgilvyOne
 
 **Systems Analyst / Software Developer**
 
@@ -135,7 +143,7 @@ Started as a software developer and later became a Systems Analyst, working on e
 
 ---
 
-## ADBAT-TESLA
+### ADBAT-TESLA
 
 **Software Developer**
 
@@ -154,7 +162,7 @@ Worked on the development of corporate websites and enterprise applications usin
 
 ---
 
-# Career Evolution
+## Career Evolution
 
 Over the years my responsibilities naturally evolved.
 
@@ -181,7 +189,7 @@ Rather than changing careers, each step expanded my ability to connect business 
 
 ---
 
-# Core Competencies Developed Throughout My Career
+## Core Competencies Developed Throughout My Career
 
 - Software Engineering
 - Software Architecture
@@ -198,10 +206,12 @@ Rather than changing careers, each step expanded my ability to connect business 
 
 ---
 
-# Looking Forward
+## Looking Forward
 
 Technology continues to evolve, and so does my professional journey.
 
 Today my focus is on helping organizations build modern digital platforms through architecture, engineering excellence and continuous knowledge sharing.
 
 The next chapter is about combining Software Architecture, Artificial Intelligence and Digital Experience Platforms to create scalable solutions for increasingly complex business challenges.
+
+[Explore related case studies](../case-studies/)

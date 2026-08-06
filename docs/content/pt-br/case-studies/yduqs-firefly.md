@@ -7,13 +7,10 @@ status: approved
 lastUpdated: 2026-08-05
 ---
 
-# Yduqs – Automação de Peças com IA
+Escalando a Produção de Campanhas com Adobe Firefly, AEM Assets e Inteligência Artificial
 
-## Escalando a Produção de Campanhas com Adobe Firefly, AEM Assets e Inteligência Artificial
 
----
-
-# Visão Geral
+## Visão Geral
 
 A Yduqs, um dos maiores grupos de ensino superior do Brasil, administra diversas instituições de ensino e realiza campanhas de marketing constantemente para captação de alunos, rematrículas e ações promocionais.
 
@@ -21,17 +18,20 @@ Cada campanha exigia a produção de dezenas ou até centenas de peças de comun
 
 O objetivo do projeto foi automatizar esse processo utilizando **Adobe Experience Manager Assets**, **Adobe Firefly** e **APIs do Photoshop**, reduzindo significativamente o trabalho manual e acelerando a produção de campanhas.
 
----
 
-# Cliente
+## Cliente
 
 **Yduqs**
 
 **Segmento:** Educação
 
----
 
-# Minha Atuação
+## Empresa
+
+**Netbiis**
+
+
+## Minha Atuação
 
 - Arquiteto de Software
 - Tech Lead
@@ -39,9 +39,8 @@ O objetivo do projeto foi automatizar esse processo utilizando **Adobe Experienc
 
 Atuei na arquitetura da solução, levantamento de requisitos, liderança técnica da equipe e definição da estratégia de integração entre os serviços da Adobe.
 
----
 
-# Desafio de Negócio
+## Desafio de Negócio
 
 A equipe de marketing trabalhava a partir de um modelo principal de campanha que precisava ser adaptado para diferentes instituições e ações promocionais.
 
@@ -57,9 +56,8 @@ As alterações normalmente envolviam:
 
 Realizar essas adaptações manualmente consumia tempo, aumentava o esforço operacional e dificultava o lançamento simultâneo de campanhas.
 
----
 
-# Solução
+## Solução
 
 Foi desenvolvida uma solução integrada utilizando **Adobe Experience Manager Assets**, **Adobe Firefly** e **Adobe Photoshop APIs**.
 
@@ -69,28 +67,26 @@ A plataforma processa essas informações automaticamente, gerando todas as vers
 
 A utilização de Inteligência Artificial Generativa permitiu automatizar tarefas repetitivas sem comprometer a qualidade do material produzido.
 
----
 
-# Tecnologias
+## Tecnologias
 
-## Adobe
+### Adobe
 
 - Adobe Experience Manager Assets
 - Adobe Firefly
 - Adobe Photoshop APIs
 - Inteligência Artificial Generativa
-- Digital Asset Management
+- Gestão de Ativos Digitais
 
-## Engenharia
+### Engenharia
 
 - Java
 - REST APIs
 - Workflow Automation
 - Integrações de Sistemas
 
----
 
-# Responsabilidades
+## Responsabilidades
 
 Durante o projeto atuei em:
 
@@ -103,9 +99,8 @@ Durante o projeto atuei em:
 - Coordenação Técnica
 - Definição de Padrões de Desenvolvimento
 
----
 
-# Principais Desafios
+## Principais Desafios
 
 O maior desafio foi construir um fluxo de automação capaz de gerar um grande volume de peças de comunicação preservando identidade visual, padronização e flexibilidade para diferentes instituições do grupo.
 
@@ -113,9 +108,8 @@ Outro ponto importante foi integrar os recursos de Inteligência Artificial da A
 
 A solução também precisava ser preparada para incorporar novos modelos de campanhas e futuras evoluções da plataforma.
 
----
 
-# Resultados
+## Resultados
 
 O projeto entregou:
 
@@ -129,17 +123,15 @@ O projeto entregou:
 
 A solução permitiu que a equipe de marketing concentrasse seus esforços na estratégia das campanhas, enquanto a geração das peças passou a ser realizada de forma automatizada.
 
----
 
-# Aprendizados
+## Aprendizados
 
 A Inteligência Artificial entrega seu maior valor quando integrada aos processos de negócio.
 
 Mais do que gerar imagens, o projeto demonstrou como IA Generativa pode ser incorporada a fluxos corporativos para reduzir atividades repetitivas, aumentar produtividade e manter governança sobre os ativos digitais.
 
----
 
-# Tecnologias Relacionadas
+## Tecnologias Relacionadas
 
 - Adobe Firefly
 - Adobe Experience Manager Assets
@@ -149,26 +141,23 @@ Mais do que gerar imagens, o projeto demonstrou como IA Generativa pode ser inco
 - Workflow Automation
 - Arquitetura de Software
 
----
 
-# Conteúdo Relacionado
+## Conteúdo Relacionado
 
-## Especialidades
+### Especialidades
 
 - Adobe Experience Cloud
 - Inteligência Artificial
 - Plataformas Digitais
 - Arquitetura de Software
 
----
 
-## Artigos
+### Artigos
 
-- Are We Thinking About AI in Software Projects the Wrong Way?
-- Adobe Edge Delivery Services: A Technical Perspective for Developers
+- [Are We Thinking About AI in Software Projects the Wrong Way?](../writing/#are-we-thinking-about-ai-in-software-projects-the-wrong-way)
+- [Adobe Edge Delivery Services: A Technical Perspective for Developers](../writing/#adobe-edge-delivery-services-a-technical-perspective-for-developers)
 
----
 
 ## Próximo Estudo de Caso
 
-→ Cogna – Plataforma Edge Delivery Services
+[Cogna – Plataforma Edge Delivery Services](../cogna-edge-delivery/)

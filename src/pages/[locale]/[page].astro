@@ -1,0 +1,89 @@
+---
+import { getCollection, getEntry, render } from 'astro:content';
+import PageLayout from '../../layouts/PageLayout.astro';
+import { isLocale, type Locale } from '../../lib/site';
+import { withLocalePrefix } from '../../lib/routing';
+import HeroSection from '../../components/HeroSection.astro';
+import CardGrid from '../../components/CardGrid.astro';
+import InfoCard from '../../components/InfoCard.astro';
+
+export async function getStaticPaths() {
+  const pages = await getCollection('pages');
+
+  return pages
+    .filter((entry) => {
+      const [locale, page] = entry.id.split('/');
+      return isLocale(locale) && page !== 'home';
+    })
+    .map((entry) => {
+      const [locale, page] = entry.id.split('/');
+      return {
+        params: {
+          locale,
+          page
+        }
+      };
+    });
+}
+
+const localeParam = Astro.params.locale;
+const pageParam = Astro.params.page;
+
+if (!localeParam || !pageParam || !isLocale(localeParam)) {
+  throw new Error('Invalid localized page route.');
+}
+
+const locale: Locale = localeParam;
+const entry = await getEntry('pages', `${locale}/${pageParam}`);
+
+if (!entry) {
+  throw new Error(`Missing page content: ${locale}/${pageParam}`);
+}
+
+const { Content } = await render(entry);
+
+const cardThemeByPage = {
+  writing: 'editorial',
+  contact: 'contact'
+} as const;
+
+const cardVariant = cardThemeByPage[pageParam as keyof typeof cardThemeByPage] ?? 'default';
+const quickLinks = entry.data.quickLinks ?? [];
+
+function isExternalHref(href: string): boolean {
+  return /^(https?:\/\/|mailto:|tel:)/i.test(href);
+}
+
+function resolveHref(href: string): string {
+  return isExternalHref(href) ? href : withLocalePrefix(locale, href);
+}
+---
+
+<PageLayout title={entry.data.title} description={entry.data.description} locale={locale} pathname={Astro.url.pathname}>
+  <HeroSection
+    eyebrow={entry.data.heroEyebrow}
+    title={entry.data.title}
+    subtitle={entry.data.heroSubtitle}
+    description={entry.data.heroDescription}
+  />
+
+  <Content />
+
+  {quickLinks.length > 0 ? (
+    <section class="mb-10">
+      <CardGrid columns={3}>
+        {quickLinks.map((link) => (
+          <InfoCard
+            title={link.title}
+            description={link.description}
+            href={resolveHref(link.href)}
+            ctaLabel={link.ctaLabel}
+            variant={cardVariant}
+            target={link.target ?? (isExternalHref(link.href) ? '_blank' : '_self')}
+            rel={isExternalHref(link.href) ? 'noreferrer' : undefined}
+          />
+        ))}
+      </CardGrid>
+    </section>
+  ) : null}
+</PageLayout>

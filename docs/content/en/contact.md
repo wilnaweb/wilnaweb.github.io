@@ -5,20 +5,34 @@ slug: /contact
 description: Get in touch to discuss Software Architecture, Adobe Experience Cloud and Digital Experience Platforms.
 language: en
 status: approved
-lastUpdated: 2026-08-05
+lastUpdated: 2026-08-06
+heroEyebrow: Contact
+heroSubtitle: Channels for collaboration, technical consulting and architecture conversations.
+heroDescription: Pick the channel that fits your context, from professional networking to direct technical exchanges.
+quickLinks:
+  - title: LinkedIn
+    description: Professional network, collaborations and architecture discussions.
+    href: https://www.linkedin.com/in/wilsoncavalcante/
+    ctaLabel: Connect on LinkedIn
+    target: _blank
+  - title: GitHub
+    description: Open-source repositories, technical experiments and implementation samples.
+    href: https://github.com/wilnaweb
+    ctaLabel: Explore repositories
+    target: _blank
+  - title: Medium
+    description: Editorial content on software architecture and Adobe Experience Cloud.
+    href: https://medium.com/@wilsoncavalcante
+    ctaLabel: Read on Medium
+    target: _blank
 ---
 
-# Contact
+<div class="page-intro-callout">
+<p class="page-intro-eyebrow">Start here</p>
+<p>If your project context matches any of the areas below, feel free to reach out through the channel that works best for you.</p>
+</div>
 
-## Let's build better digital platforms together.
-
-Whether you're planning a new Adobe Experience Cloud implementation, modernizing an existing platform or looking for technical leadership on a complex software project, I'd be happy to start a conversation.
-
-I enjoy discussing software architecture, engineering challenges and innovative technology solutions.
-
----
-
-# Areas I Can Help With
+## Areas Where I Can Help
 
 - Software Architecture
 - Adobe Experience Manager (AEM)
@@ -35,61 +49,65 @@ I enjoy discussing software architecture, engineering challenges and innovative 
 - DevOps & CI/CD
 - Artificial Intelligence for Software Engineering
 
----
 
-# Professional Profiles
+## Professional Profiles
 
-## LinkedIn
+<div class="contact-profiles-grid">
+
+<article class="contact-profile-card">
+
+### Email
+
+The fastest direct channel for project conversations and technical consulting.
+
+<p class="contact-profile-cta"><a href="mailto:hello@wil.dev.br">hello@wil.dev.br</a></p>
+
+</article>
+
+<article class="contact-profile-card">
+
+### LinkedIn
 
 The best place to connect professionally and follow my career.
 
-**URL**
+<p class="contact-profile-cta"><a href="https://www.linkedin.com/in/wilsoncavalcante/" target="_blank" rel="noreferrer">Connect on LinkedIn</a></p>
 
-https://www.linkedin.com/in/wilsoncavalcante/
+</article>
 
----
+<article class="contact-profile-card">
 
-## GitHub
+### GitHub
 
 Open source projects, technical experiments and personal repositories.
 
-**URL**
+<p class="contact-profile-cta"><a href="https://github.com/wilnaweb" target="_blank" rel="noreferrer">Explore GitHub repositories</a></p>
 
-https://github.com/wilnaweb
+</article>
 
----
+<article class="contact-profile-card">
 
-## Gist
+### Gist
 
 Technical snippets, scripts and reusable engineering resources.
 
-**URL**
+<p class="contact-profile-cta"><a href="https://gist.github.com/wilnaweb" target="_blank" rel="noreferrer">Browse Gists and snippets</a></p>
 
-https://gist.github.com/wilnaweb
+</article>
 
----
+<article class="contact-profile-card">
 
-## Medium
+### Medium
 
 Technical articles covering Adobe Experience Cloud, Software Architecture, Cloud Engineering and Artificial Intelligence.
 
-**URL**
+<p class="contact-profile-cta"><a href="https://medium.com/@wilsoncavalcante" target="_blank" rel="noreferrer">Read articles on Medium</a></p>
 
-https://medium.com/@wilsoncavalcante
+</article>
 
----
+</div>
 
-# Domains
 
-My professional website is available through the following domains.
-
-- https://wil.dev.br
-- https://wilson.dev.br
-- https://wilnaweb.com
-
----
-
-# Collaboration
+## Collaboration
 
 I'm always interested in conversations about:
 
@@ -101,17 +119,15 @@ I'm always interested in conversations about:
 - Technical Communities
 - Knowledge Sharing
 
-Whether you are looking for technical consulting, architecture discussions, project collaboration or simply exchanging ideas about software engineering, feel free to reach out.
+If you are looking for technical consulting, architecture discussions, project collaboration, or simply want to exchange ideas about software engineering, feel free to reach out.
 
----
 
-# Response Time
+## Response Time
 
-I usually respond to professional contacts within a few business days.
+I usually reply to professional inquiries within a few business days.
 
----
 
-# Thank You
+## Thank You
 
 Thank you for visiting WIL.DEV.
 

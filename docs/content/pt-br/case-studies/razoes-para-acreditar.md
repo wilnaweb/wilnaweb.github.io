@@ -7,13 +7,10 @@ status: approved
 lastUpdated: 2026-08-05
 ---
 
-# Razões Para Acreditar
+Evoluindo uma das maiores plataformas brasileiras de conteúdo digital
 
-## Evoluindo uma das maiores plataformas brasileiras de conteúdo digital
 
----
-
-# Visão Geral
+## Visão Geral
 
 O **Razões Para Acreditar** tornou-se uma das maiores plataformas brasileiras de conteúdo positivo, alcançando milhões de leitores e conquistando grande relevância nas redes sociais e nos principais veículos de comunicação do país.
 
@@ -21,29 +18,25 @@ Durante esse período, o projeto cresceu continuamente, originando novas iniciat
 
 Minha atuação esteve focada na evolução técnica da plataforma, garantindo estabilidade, escalabilidade e sustentação da operação ao longo de vários anos.
 
----
 
-# Cliente
+## Cliente
 
 **Razões Para Acreditar**
 
 **Segmento:** Mídia Digital
 
----
 
-# Empresa
+## Empresa
 
-**Gasoline Digital**
+**Gasoline.Digital**
 
----
 
-# Período
+## Período
 
 **2014 – 2022**
 
----
 
-# Minha Atuação
+## Minha Atuação
 
 - Arquiteto de Software
 - Tech Lead
@@ -51,9 +44,8 @@ Minha atuação esteve focada na evolução técnica da plataforma, garantindo e
 
 Fui responsável pela arquitetura da plataforma, liderança técnica da equipe, planejamento das evoluções, acompanhamento da infraestrutura e relacionamento técnico com o cliente.
 
----
 
-# Desafio de Negócio
+## Desafio de Negócio
 
 Diferentemente de projetos tradicionais, o Razões Para Acreditar exigia evolução contínua da plataforma sem interrupção da operação.
 
@@ -69,9 +61,8 @@ Os principais desafios incluíam:
 
 Todo esse processo precisava ocorrer mantendo a estabilidade da plataforma e sem impactar a experiência dos usuários.
 
----
 
-# Solução
+## Solução
 
 A plataforma foi continuamente evoluída utilizando **WordPress** como CMS.
 
@@ -88,33 +79,31 @@ Além do desenvolvimento de novas funcionalidades, o projeto envolvia:
 
 Durante vários anos acompanhamos a evolução tecnológica da plataforma, implementando melhorias contínuas conforme o crescimento do projeto.
 
----
 
-# Tecnologias
+## Tecnologias
 
-## Plataforma
+### Plataforma
 
 - WordPress
 - PHP
 - MySQL
 
-## Infraestrutura
+### Infraestrutura
 
 - Linux
 - Apache
 - Nginx
 - CDN
-- Cloud Computing
+- Computação em Nuvem
 
-## Marketing & Analytics
+### Marketing & Analytics
 
 - Google Analytics
 - Google Ad Manager (DFP)
 - Publicidade Programática
 
----
 
-# Responsabilidades
+## Responsabilidades
 
 Durante o projeto atuei em:
 
@@ -127,9 +116,8 @@ Durante o projeto atuei em:
 - Coordenação da Equipe
 - Relacionamento Técnico com o Cliente
 
----
 
-# Principais Desafios
+## Principais Desafios
 
 Um dos maiores desafios foi manter uma plataforma em constante crescimento sem comprometer sua estabilidade.
 
@@ -137,9 +125,8 @@ Um dos maiores desafios foi manter uma plataforma em constante crescimento sem c
 
 Outro aspecto importante foi acompanhar a evolução do projeto durante muitos anos, garantindo que novas funcionalidades fossem incorporadas sem comprometer a qualidade da plataforma.
 
----
 
-# Resultados
+## Resultados
 
 O projeto entregou:
 
@@ -153,9 +140,8 @@ O projeto entregou:
 
 O Razões Para Acreditar consolidou-se como uma das maiores referências brasileiras em conteúdo positivo, sustentado por uma plataforma tecnológica preparada para acompanhar seu crescimento.
 
----
 
-# Aprendizados
+## Aprendizados
 
 Construir software é apenas o começo.
 
@@ -163,31 +149,28 @@ O verdadeiro desafio está em manter uma plataforma evoluindo durante anos, acom
 
 Projetos de longa duração exigem disciplina, engenharia de software e evolução contínua.
 
----
 
-# Tecnologias Relacionadas
+## Tecnologias Relacionadas
 
 - WordPress
 - PHP
 - MySQL
-- Cloud Computing
+- Computação em Nuvem
 - Performance
 - Arquitetura de Software
 - Liderança Técnica
 
----
 
-# Conteúdo Relacionado
+## Conteúdo Relacionado
 
-## Especialidades
+### Especialidades
 
 - Arquitetura de Software
-- Cloud Engineering
+- Engenharia de Nuvem
 - Liderança Técnica
-- Enterprise Content Management
+- Gestão de Conteúdo Corporativo
 
----
 
 ## Próximo Estudo de Caso
 
-→ Find Motoboy
+[Find Motoboy](../find-motoboy/)

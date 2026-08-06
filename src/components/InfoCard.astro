@@ -1,0 +1,66 @@
+---
+import CTAButton from './CTAButton.astro';
+
+interface Props {
+  title: string;
+  description: string;
+  href?: string;
+  ctaLabel?: string;
+  variant?: 'default' | 'editorial' | 'contact' | 'highlight' | 'portfolio';
+  target?: '_self' | '_blank';
+  rel?: string;
+}
+
+const { title, description, href, ctaLabel, variant = 'default', target, rel } = Astro.props;
+
+const cardVariantClass = {
+  default:
+    'border-[var(--color-border)] bg-[var(--color-surface)]',
+  editorial:
+    'border-[color-mix(in_srgb,var(--color-accent)_32%,var(--color-border))] bg-[linear-gradient(155deg,color-mix(in_srgb,var(--color-accent)_8%,var(--color-surface))_0%,var(--color-surface)_100%)]',
+  contact:
+    'border-[color-mix(in_srgb,var(--color-success)_28%,var(--color-border))] bg-[linear-gradient(155deg,color-mix(in_srgb,var(--color-success)_10%,var(--color-surface))_0%,var(--color-surface)_100%)]',
+  highlight:
+    'border-[color-mix(in_srgb,var(--color-accent)_34%,var(--color-border))] bg-[linear-gradient(152deg,color-mix(in_srgb,var(--color-accent)_14%,var(--color-surface-elevated))_0%,var(--color-surface)_100%)]',
+  portfolio:
+    'border-[color-mix(in_srgb,var(--color-info)_34%,var(--color-border))] bg-[linear-gradient(160deg,color-mix(in_srgb,var(--color-info)_12%,var(--color-surface))_0%,var(--color-surface)_100%)]'
+}[variant];
+
+const titleVariantClass = {
+  default: 'text-[var(--color-text-primary)]',
+  editorial: 'text-[var(--color-text-primary)] tracking-[-0.01em]',
+  contact: 'text-[var(--color-text-primary)]',
+  highlight: 'text-[var(--color-text-primary)] tracking-[-0.01em]',
+  portfolio: 'text-[var(--color-text-primary)] tracking-[-0.01em]'
+}[variant];
+
+const descriptionVariantClass = {
+  default: 'text-[var(--color-text-secondary)]',
+  editorial: 'text-[color-mix(in_srgb,var(--color-text-primary)_82%,var(--color-text-secondary))]',
+  contact: 'text-[color-mix(in_srgb,var(--color-text-primary)_84%,var(--color-text-secondary))]',
+  highlight: 'text-[color-mix(in_srgb,var(--color-text-primary)_80%,var(--color-text-secondary))]',
+  portfolio: 'text-[color-mix(in_srgb,var(--color-text-primary)_82%,var(--color-text-secondary))]'
+}[variant];
+
+const buttonVariant = {
+  default: 'secondary',
+  editorial: 'editorial',
+  contact: 'contact',
+  highlight: 'highlight',
+  portfolio: 'portfolio'
+}[variant] as 'secondary' | 'editorial' | 'contact' | 'highlight' | 'portfolio';
+---
+
+<article class:list={[
+  'rounded-2xl border p-5 shadow-[0_10px_30px_color-mix(in_srgb,#020617_16%,transparent)]',
+  cardVariantClass
+]}
+>
+  <h3 class:list={['m-0 text-lg font-semibold leading-tight', titleVariantClass]}>{title}</h3>
+  <p class:list={['mt-3 text-sm leading-relaxed', descriptionVariantClass]}>{description}</p>
+  {href && ctaLabel ? (
+    <div class="mt-4">
+      <CTAButton href={href} label={ctaLabel} variant={buttonVariant} target={target} rel={rel} />
+    </div>
+  ) : null}
+</article>

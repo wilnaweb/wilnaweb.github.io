@@ -1,0 +1,56 @@
+---
+import type { Locale } from '../lib/site';
+import { getLocaleCopy } from '../lib/i18n';
+import { isRouteActive, withLocalePrefix } from '../lib/routing';
+import LanguageSwitcher from './LanguageSwitcher.astro';
+
+interface Props {
+  locale: Locale;
+  pathname: string;
+}
+
+const { locale, pathname } = Astro.props;
+const copy = getLocaleCopy(locale);
+---
+
+<header class="sticky top-0 z-10 -mx-5 mb-10 border-b border-[var(--color-border)] bg-[color-mix(in_srgb,var(--color-background)_88%,transparent)] px-5 py-4 backdrop-blur md:-mx-8 md:px-8">
+  <div class="mx-auto flex w-full max-w-[1200px] items-center justify-between gap-4">
+    <a href={withLocalePrefix(locale, '/')} class="text-sm font-semibold tracking-[0.16em] text-[var(--color-text-primary)]">
+      WIL.DEV
+    </a>
+
+    <nav aria-label="Primary" class="hidden items-center gap-6 md:flex">
+      {copy.nav.map((item) => (
+        <a
+          href={withLocalePrefix(locale, item.href)}
+          class:list={[
+            'text-sm transition-colors duration-200',
+            isRouteActive(pathname, locale, item.href)
+              ? 'text-[var(--color-text-primary)]'
+              : 'text-[var(--color-text-secondary)] hover:text-[var(--color-text-primary)]'
+          ]}
+        >
+          {item.label}
+        </a>
+      ))}
+    </nav>
+
+    <LanguageSwitcher locale={locale} pathname={pathname} />
+  </div>
+
+  <nav aria-label="Primary mobile" class="mt-4 flex flex-wrap items-center gap-3 md:hidden">
+    {copy.nav.map((item) => (
+      <a
+        href={withLocalePrefix(locale, item.href)}
+        class:list={[
+          'rounded-full border px-3 py-1 text-xs transition-colors duration-200',
+          isRouteActive(pathname, locale, item.href)
+            ? 'border-[var(--color-accent)] text-[var(--color-text-primary)]'
+            : 'border-[var(--color-border)] text-[var(--color-text-secondary)] hover:text-[var(--color-text-primary)]'
+        ]}
+      >
+        {item.label}
+      </a>
+    ))}
+  </nav>
+</header>

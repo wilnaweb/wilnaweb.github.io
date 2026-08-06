@@ -1,19 +1,16 @@
 ---
 title: Palmeiras – Digital Assets
 slug: /case-studies/palmeiras
-description: Implantação de uma plataforma corporativa de Digital Asset Management utilizando Adobe Experience Manager Assets.
+description: Implantação de uma plataforma corporativa de Gestão de Ativos Digitais utilizando Adobe Experience Manager Assets.
 language: pt-br
 status: approved
 lastUpdated: 2026-08-05
 ---
 
-# Palmeiras – Digital Assets
+Centralizando Ativos Digitais com Adobe Experience Manager Assets
 
-## Centralizando Ativos Digitais com Adobe Experience Manager Assets
 
----
-
-# Visão Geral
+## Visão Geral
 
 A Sociedade Esportiva Palmeiras precisava modernizar a forma como seus ativos digitais eram armazenados, organizados e distribuídos.
 
@@ -21,17 +18,20 @@ Fotos, vídeos e materiais institucionais estavam espalhados entre diferentes pl
 
 O projeto teve como objetivo implantar uma plataforma corporativa baseada em **Adobe Experience Manager Assets (AEM Assets)**, centralizando todo o acervo digital e permitindo sua distribuição de forma segura e integrada.
 
----
 
-# Cliente
+## Cliente
 
 **Sociedade Esportiva Palmeiras**
 
 **Segmento:** Esportes
 
----
 
-# Minha Atuação
+## Empresa
+
+**Netbiis**
+
+
+## Minha Atuação
 
 - Arquiteto de Software
 - Tech Lead
@@ -39,9 +39,8 @@ O projeto teve como objetivo implantar uma plataforma corporativa baseada em **A
 
 Fui responsável pela arquitetura da solução, levantamento de requisitos, liderança técnica da equipe e definição da estratégia de integração entre o Adobe Experience Manager Assets e os demais sistemas do clube.
 
----
 
-# Desafio de Negócio
+## Desafio de Negócio
 
 O clube possuía diferentes departamentos utilizando ferramentas distintas para armazenar seus ativos digitais.
 
@@ -54,11 +53,10 @@ Entre os principais desafios estavam:
 - Compartilhar materiais com jornalistas e assessorias de imprensa de forma segura.
 - Integrar o acervo digital com sites e demais sistemas do clube.
 
----
 
-# Solução
+## Solução
 
-Foi implantada uma plataforma de **Digital Asset Management (DAM)** utilizando **Adobe Experience Manager Assets** como repositório central de ativos digitais.
+Foi implantada uma plataforma de **Gestão de Ativos Digitais (DAM)** utilizando **Adobe Experience Manager Assets** como repositório central de ativos digitais.
 
 A solução contemplou:
 
@@ -72,11 +70,10 @@ A solução contemplou:
 
 A partir da nova arquitetura, diferentes aplicações passaram a consumir imagens diretamente do Adobe Experience Manager Assets.
 
----
 
-# Tecnologias
+## Tecnologias
 
-## Adobe
+### Adobe
 
 - Adobe Experience Manager Assets
 - Dynamic Media
@@ -84,7 +81,7 @@ A partir da nova arquitetura, diferentes aplicações passaram a consumir imagen
 - Metadata Management
 - Asset Processing
 
-## Engenharia
+### Engenharia
 
 - Java
 - Sling Servlets
@@ -93,9 +90,8 @@ A partir da nova arquitetura, diferentes aplicações passaram a consumir imagen
 - Maven
 - Git
 
----
 
-# Responsabilidades
+## Responsabilidades
 
 Durante o projeto atuei em:
 
@@ -108,9 +104,8 @@ Durante o projeto atuei em:
 - Integrações entre Sistemas
 - Definição de Padrões Técnicos
 
----
 
-# Principais Desafios
+## Principais Desafios
 
 O principal desafio foi consolidar ativos digitais provenientes de diferentes departamentos em um único ambiente corporativo, preservando organização, governança e facilidade de acesso.
 
@@ -118,13 +113,12 @@ Outro ponto importante foi estruturar um modelo de permissões capaz de atender 
 
 Também foi necessário disponibilizar APIs para que sites e outras aplicações passassem a consumir imagens diretamente do Adobe Experience Manager Assets, eliminando processos manuais de publicação.
 
----
 
-# Resultados
+## Resultados
 
 O projeto entregou:
 
-- Plataforma corporativa centralizada de Digital Asset Management.
+- Plataforma corporativa centralizada de Gestão de Ativos Digitais.
 - Organização e padronização do acervo digital.
 - Melhor governança sobre os ativos.
 - Compartilhamento seguro com imprensa e parceiros.
@@ -134,45 +128,40 @@ O projeto entregou:
 
 O Adobe Experience Manager Assets tornou-se a principal fonte de ativos digitais do clube, simplificando a gestão de conteúdo e melhorando sua distribuição para diferentes canais.
 
----
 
-# Aprendizados
+## Aprendizados
 
-Uma plataforma de Digital Asset Management vai muito além do armazenamento de arquivos.
+Uma plataforma de Gestão de Ativos Digitais vai muito além do armazenamento de arquivos.
 
 Seu verdadeiro valor está na governança, organização, automação e integração com todo o ecossistema digital da organização.
 
----
 
-# Tecnologias Relacionadas
+## Tecnologias Relacionadas
 
 - Adobe Experience Manager Assets
 - Adobe Experience Cloud
 - Dynamic Media
-- Digital Asset Management
+- Gestão de Ativos Digitais
 - REST APIs
 - Arquitetura de Software
 
----
 
-# Conteúdo Relacionado
+## Conteúdo Relacionado
 
-## Especialidades
+### Especialidades
 
 - Adobe Experience Cloud
 - Plataformas Digitais
 - Arquitetura de Software
 
----
 
-## Artigos
+### Artigos
 
-- Adobe Edge Delivery Services: A Technical Perspective for Developers
-- AEMCS API Client Library in PHP
-- How to Use a Static IP Proxy in AEM as a Cloud Service
+- [Adobe Edge Delivery Services: A Technical Perspective for Developers](../writing/#adobe-edge-delivery-services-a-technical-perspective-for-developers)
+- [AEMCS API Client Library in PHP](../writing/#aemcs-api-client-library-in-php-making-aem-assets-integration-easier)
+- [How to Use a Static IP Proxy in AEM as a Cloud Service](../writing/#how-to-use-a-static-ip-proxy-in-aem-as-a-cloud-service)
 
----
 
 ## Próximo Estudo de Caso
 
-→ Yduqs – Automação de Peças com IA
+[Yduqs – Automação de Peças com IA](../yduqs-firefly/)

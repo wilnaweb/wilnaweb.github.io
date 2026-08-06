@@ -6,21 +6,27 @@ description: Aprendizado contínuo, certificações, treinamentos e desenvolvime
 language: pt-br
 status: approved
 lastUpdated: 2026-08-05
+heroEyebrow: Aprendizado
+heroSubtitle: Evolução contínua em arquitetura, nuvem e ecossistema Adobe.
+heroDescription: Estudos, certificações e experimentos práticos que mantêm as decisões técnicas atuais e aplicáveis.
+quickLinks:
+  - title: Produção Técnica
+    description: Artigos em que aprendizados viram orientação prática para engenharia.
+    href: /writing
+    ctaLabel: Ler insights
+  - title: Carreira
+    description: Linha do tempo mostrando como o estudo contínuo influenciou a trajetória.
+    href: /career
+    ctaLabel: Ver trajetória
+  - title: Contato
+    description: Trocar experiências sobre certificações, estudo e comunidades técnicas.
+    href: /contact
+    ctaLabel: Conectar
 ---
 
-# Aprendizado
+Aqui estão os focos atuais de estudo e como esse aprendizado é aplicado em decisões técnicas e entregas concretas.
 
-## Aprender faz parte da engenharia.
-
-A tecnologia evolui todos os dias.
-
-Acompanhar essa evolução exige curiosidade, disciplina e estudo contínuo. Ao longo da minha carreira sempre investi em treinamentos, certificações, bootcamps e pesquisa prática para ampliar meus conhecimentos e entregar soluções cada vez melhores.
-
-Mais do que acumular certificados, procuro aprender tecnologias que possam ser aplicadas em projetos reais.
-
----
-
-# Áreas de Estudo Atuais
+## Áreas de Estudo Atuais
 
 Atualmente concentro meus estudos principalmente em:
 
@@ -37,9 +43,9 @@ Atualmente concentro meus estudos principalmente em:
 
 ---
 
-# Certificações
+## Certificações
 
-## Blip Academy
+### Blip Academy
 
 ### Certificado de Conclusão – Plataforma Blip
 
@@ -73,15 +79,15 @@ Treinamento sobre conceitos de UX e boas práticas para construção de experiê
 
 ---
 
-# Adobe
+### Adobe
 
-## Adobe Real-Time Customer Data Platform (RT-CDP) Bootcamp
+#### Adobe Real-Time Customer Data Platform (RT-CDP) Bootcamp
 
 Treinamento focado em Adobe Experience Platform e Real-Time Customer Data Platform.
 
 ---
 
-# Outros Treinamentos
+### Outros Treinamentos
 
 Ao longo da carreira participei de diversos cursos e programas de capacitação, entre eles:
 
@@ -92,11 +98,11 @@ Ao longo da carreira participei de diversos cursos e programas de capacitação,
 - Arduino Básico
 - Desenvolvimento de Software
 - Arquitetura de Sistemas
-- Cloud Computing
+- Computação em Nuvem
 
 ---
 
-# Filosofia de Aprendizado
+### Filosofia de Aprendizado
 
 Acredito que aprender deve fazer parte da rotina de qualquer profissional de tecnologia.
 
@@ -108,7 +114,7 @@ Para mim, estudar não é uma atividade separada do trabalho.
 
 ---
 
-# Compartilhando Conhecimento
+### Compartilhando Conhecimento
 
 Aprender também significa compartilhar.
 
@@ -118,7 +124,7 @@ Ensinar é uma das formas mais eficientes de consolidar o próprio aprendizado.
 
 ---
 
-# Explorando Atualmente
+### Explorando Atualmente
 
 Atualmente tenho dedicado parte dos meus estudos aos seguintes temas:
 
@@ -132,12 +138,12 @@ Atualmente tenho dedicado parte dos meus estudos aos seguintes temas:
 
 ---
 
-# Continue Explorando
+## Continue Explorando
 
 Quer ver como esses conhecimentos são aplicados em projetos reais?
 
-→ Estudos de Caso
+[Estudos de Caso](../case-studies/)
 
 Ou conhecer os artigos técnicos onde compartilho pesquisas, aprendizados e experiências práticas?
 
-→ Produção Técnica
+[Produção Técnica](../writing/)
