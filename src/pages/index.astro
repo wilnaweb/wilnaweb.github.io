@@ -1,5 +1,63 @@
 ---
-import { DEFAULT_LOCALE } from '../lib/site';
+import { DEFAULT_LOCALE, LOCALES } from '../lib/site';
 
-return Astro.redirect(`/${DEFAULT_LOCALE}/`);
+const redirectPath = new URL(`./${DEFAULT_LOCALE}/`, Astro.url).pathname;
+const supportedLocales = [...LOCALES];
 ---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Redirecting to: {redirectPath}</title>
+		<meta http-equiv="refresh" content={`0;url=${redirectPath}`} />
+		<meta name="robots" content="noindex" />
+		<link rel="canonical" href={redirectPath} />
+		<script is:inline define:vars={{ redirectPath, supportedLocales }}>
+			const localeAliases = new Map([
+				['pt', 'pt-br'],
+				['pt-br', 'pt-br'],
+				['en', 'en'],
+				['en-us', 'en'],
+				['en-gb', 'en']
+			]);
+
+			const pickLocale = () => {
+				const preferences = Array.isArray(navigator.languages) && navigator.languages.length > 0
+					? navigator.languages
+					: [navigator.language];
+
+				for (const preference of preferences) {
+					const normalized = String(preference || '').toLowerCase();
+					if (!normalized) {
+						continue;
+					}
+
+					if (localeAliases.has(normalized)) {
+						const exactMatch = localeAliases.get(normalized);
+						if (exactMatch && supportedLocales.includes(exactMatch)) {
+							return exactMatch;
+						}
+					}
+
+					const baseLanguage = normalized.split('-')[0];
+					if (localeAliases.has(baseLanguage)) {
+						const baseMatch = localeAliases.get(baseLanguage);
+						if (baseMatch && supportedLocales.includes(baseMatch)) {
+							return baseMatch;
+						}
+					}
+				}
+
+				return 'en';
+			};
+
+			const locale = pickLocale();
+			const localizedPath = new URL(`./${locale}/`, window.location.href).pathname;
+			window.location.replace(localizedPath || redirectPath);
+		</script>
+	</head>
+	<body>
+		<a href={redirectPath}>Redirecting from <code>/</code> to <code>{redirectPath}</code></a>
+	</body>
+</html>
