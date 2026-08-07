@@ -21,6 +21,7 @@ const english: LocaleCopy = {
     { href: '/expertise', label: 'Expertise' },
     { href: '/case-studies', label: 'Case Studies' },
     { href: '/writing', label: 'Writing' },
+    { href: '/career', label: 'Career' },
     { href: '/contact', label: 'Contact' }
   ],
   footerNav: [
@@ -50,6 +51,7 @@ const portuguese: LocaleCopy = {
     { href: '/expertise', label: 'Expertise' },
     { href: '/case-studies', label: 'Estudos de Caso' },
     { href: '/writing', label: 'Artigos' },
+    { href: '/career', label: 'Carreira' },
     { href: '/contact', label: 'Contato' }
   ],
   footerNav: [
