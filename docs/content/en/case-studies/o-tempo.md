@@ -167,12 +167,12 @@ Technology is only one part of the solution.
 
 ### Related Articles
 
-- [Understanding Full-Text Search in AEM](../writing/#understanding-full-text-search-in-aem-how-lucene-really-works)
-- [Understanding AEM Index Naming and Versioning](../writing/#understanding-aem-index-naming-and-versioning)
-- [includedPaths vs queryPaths](../writing/#includedpaths-vs-querypaths-understanding-index-scope-in-aem)
-- [Adobe Edge Delivery Services: A Technical Perspective](../writing/#adobe-edge-delivery-services-a-technical-perspective-for-developers)
+- [Understanding Full-Text Search in AEM](/en/writing/#understanding-full-text-search-in-aem-how-lucene-really-works)
+- [Understanding AEM Index Naming and Versioning](/en/writing/#understanding-aem-index-naming-and-versioning)
+- [includedPaths vs queryPaths](/en/writing/#includedpaths-vs-querypaths-understanding-index-scope-in-aem)
+- [Adobe Edge Delivery Services: A Technical Perspective](/en/writing/#adobe-edge-delivery-services-a-technical-perspective-for-developers)
 
 
 ## Next Case Study
 
-[Palmeiras Digital Assets](../palmeiras/)
+[Palmeiras Digital Assets](/en/case-studies/palmeiras/)

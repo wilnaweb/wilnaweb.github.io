@@ -105,7 +105,7 @@ Quer conhecer minha trajetória profissional completa?
 
 Explore minha linha do tempo para ver como minha experiência evoluiu ao longo de mais de vinte anos trabalhando com desenvolvimento de software, arquitetura e liderança técnica.
 
-**[Ver Linha do Tempo](../career/)**
+**[Ver Linha do Tempo](/pt-br/career/)**
 
 ---
 

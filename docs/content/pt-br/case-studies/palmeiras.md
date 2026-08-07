@@ -157,11 +157,11 @@ Seu verdadeiro valor está na governança, organização, automação e integra�
 
 ### Artigos
 
-- [Adobe Edge Delivery Services: A Technical Perspective for Developers](../writing/#adobe-edge-delivery-services-a-technical-perspective-for-developers)
-- [AEMCS API Client Library in PHP](../writing/#aemcs-api-client-library-in-php-making-aem-assets-integration-easier)
-- [How to Use a Static IP Proxy in AEM as a Cloud Service](../writing/#how-to-use-a-static-ip-proxy-in-aem-as-a-cloud-service)
+- [Adobe Edge Delivery Services: A Technical Perspective for Developers](/pt-br/writing/#adobe-edge-delivery-services-a-technical-perspective-for-developers)
+- [AEMCS API Client Library in PHP](/pt-br/writing/#aemcs-api-client-library-in-php-making-aem-assets-integration-easier)
+- [How to Use a Static IP Proxy in AEM as a Cloud Service](/pt-br/writing/#how-to-use-a-static-ip-proxy-in-aem-as-a-cloud-service)
 
 
 ## Próximo Estudo de Caso
 
-[Yduqs – Automação de Peças com IA](../yduqs-firefly/)
+[Yduqs – Automação de Peças com IA](/pt-br/case-studies/yduqs-firefly/)

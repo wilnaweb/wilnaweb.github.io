@@ -154,10 +154,10 @@ Rather than replacing creative work, Generative AI became an accelerator for mar
 
 ### Related Articles
 
-- [Are We Thinking About AI in Software Projects the Wrong Way?](../writing/#are-we-thinking-about-ai-in-software-projects-the-wrong-way)
-- [Adobe Edge Delivery Services: A Technical Perspective for Developers](../writing/#adobe-edge-delivery-services-a-technical-perspective-for-developers)
+- [Are We Thinking About AI in Software Projects the Wrong Way?](/en/writing/#are-we-thinking-about-ai-in-software-projects-the-wrong-way)
+- [Adobe Edge Delivery Services: A Technical Perspective for Developers](/en/writing/#adobe-edge-delivery-services-a-technical-perspective-for-developers)
 
 
 ## Next Case Study
 
-[Cogna – Edge Delivery Platform](../cogna-edge-delivery/)
+[Cogna – Edge Delivery Platform](/en/case-studies/cogna-edge-delivery/)

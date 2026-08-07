@@ -160,4 +160,4 @@ Long-term engineering requires discipline, continuous improvement and close coll
 
 ## Next Case Study
 
-[Find Motoboy](../find-motoboy/)
+[Find Motoboy](/en/case-studies/find-motoboy/)

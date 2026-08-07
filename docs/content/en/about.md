@@ -104,7 +104,7 @@ Interested in my complete professional journey?
 
 Explore my career timeline to see how my experience evolved over more than twenty years working with software development, architecture and technical leadership.
 
-**[View Career Timeline](../career/)**
+**[View Career Timeline](/en/career/)**
 
 
 ## Let's Connect

@@ -69,7 +69,7 @@ Projetos corporativos nos segmentos de mídia, educação e esportes.
 
 Artigos técnicos sobre AEM, Edge Delivery Services, Oak Indexes, Lucene e Arquitetura em Nuvem.
 
-[Explorar Adobe Experience Cloud](../case-studies/)
+[Explorar Adobe Experience Cloud](/pt-br/case-studies/)
 
 </article>
 
@@ -94,7 +94,7 @@ Projetando sistemas preparados para evoluir, escalar e atender às necessidades 
 
 Mais de vinte anos projetando e evoluindo plataformas corporativas.
 
-[Explorar Arquitetura de Software](../case-studies/)
+[Explorar Arquitetura de Software](/pt-br/case-studies/)
 
 </article>
 
@@ -120,7 +120,7 @@ Construção de plataformas modernas voltadas para conteúdo, marketing e experi
 - Cogna
 - Palmeiras
 
-[Explorar Plataformas Digitais](../case-studies/)
+[Explorar Plataformas Digitais](/pt-br/case-studies/)
 
 </article>
 
@@ -139,7 +139,7 @@ Construção de plataformas modernas utilizando automação, integração contí
 - Deploy Automatizado
 - Performance
 
-[Explorar Engenharia de Nuvem](../case-studies/)
+[Explorar Engenharia de Nuvem](/pt-br/case-studies/)
 
 </article>
 
@@ -162,7 +162,7 @@ Minha formação técnica foi construída sobre desenvolvimento de software.
 - Apache Sling
 - OSGi
 
-[Explorar Engenharia Backend](../case-studies/)
+[Explorar Engenharia Backend](/pt-br/case-studies/)
 
 </article>
 
@@ -184,7 +184,7 @@ Desenvolvimento de interfaces modernas com foco em performance, acessibilidade e
 - Web Performance
 - Acessibilidade
 
-[Explorar Engenharia Front-end](../case-studies/)
+[Explorar Engenharia Front-end](/pt-br/case-studies/)
 
 </article>
 
@@ -205,7 +205,7 @@ Liderando equipes e projetos de engenharia para entregar soluções sustentávei
 - Scrum
 - Planejamento Técnico
 
-[Explorar Liderança Técnica](../career/)
+[Explorar Liderança Técnica](/pt-br/career/)
 
 </article>
 
@@ -226,7 +226,7 @@ Acredito que conhecimento técnico só gera valor quando é compartilhado.
 
 Compartilhar conhecimento faz parte da minha forma de trabalhar.
 
-[Explorar Produção Técnica](../writing/)
+[Explorar Produção Técnica](/pt-br/writing/)
 
 </article>
 
@@ -260,10 +260,10 @@ Essas áreas evoluem juntas em praticamente todos os projetos dos quais particip
 
 Quer ver essas tecnologias aplicadas em projetos reais?
 
-[Estudos de Caso](../case-studies/)
+[Estudos de Caso](/pt-br/case-studies/)
 
 Ou conhecer minha forma de pensar sobre engenharia de software?
 
-[Artigos Técnicos](../writing/)
+[Artigos Técnicos](/pt-br/writing/)
 
 ---

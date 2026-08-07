@@ -345,10 +345,10 @@ Sempre que encontro um desafio técnico interessante ou aprendo algo que possa a
 
 Quer ver essas tecnologias aplicadas em projetos reais?
 
-[Estudos de Caso](../case-studies/)
+[Estudos de Caso](/pt-br/case-studies/)
 
 Ou conhecer melhor minha experiência técnica?
 
-[Especialidades](../expertise/)
+[Especialidades](/pt-br/expertise/)
 
 ---

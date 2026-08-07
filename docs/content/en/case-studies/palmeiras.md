@@ -160,11 +160,11 @@ Its real value comes from governance, metadata strategy, permission management, 
 
 ### Related Articles
 
-- [Adobe Edge Delivery Services: A Technical Perspective](../writing/#adobe-edge-delivery-services-a-technical-perspective-for-developers)
-- [AEMCS API Client Library in PHP](../writing/#aemcs-api-client-library-in-php-making-aem-assets-integration-easier)
-- [How to Use a Static IP Proxy in AEM as a Cloud Service](../writing/#how-to-use-a-static-ip-proxy-in-aem-as-a-cloud-service)
+- [Adobe Edge Delivery Services: A Technical Perspective](/en/writing/#adobe-edge-delivery-services-a-technical-perspective-for-developers)
+- [AEMCS API Client Library in PHP](/en/writing/#aemcs-api-client-library-in-php-making-aem-assets-integration-easier)
+- [How to Use a Static IP Proxy in AEM as a Cloud Service](/en/writing/#how-to-use-a-static-ip-proxy-in-aem-as-a-cloud-service)
 
 
 ## Next Case Study
 
-[Yduqs – Marketing Asset Automation](../yduqs-firefly/)
+[Yduqs – Marketing Asset Automation](/en/case-studies/yduqs-firefly/)

@@ -1,0 +1,70 @@
+---
+import { withLocalePrefix } from '../lib/routing';
+import type { Locale } from '../lib/site';
+
+interface TimelineItem {
+  label: string;
+  href?: string;
+}
+
+interface TimelineSection {
+  title: string;
+  items: TimelineItem[];
+}
+
+interface TimelineEntry {
+  company: string;
+  role: string;
+  period: string;
+  summary: string[];
+  sections?: TimelineSection[];
+}
+
+interface Props {
+  locale: Locale;
+  heading: string;
+  introEyebrow?: string;
+  introText?: string;
+  entries: TimelineEntry[];
+}
+
+const { locale, heading, introEyebrow, introText, entries } = Astro.props;
+---
+
+{introEyebrow && introText ? (
+  <div class="page-intro-callout">
+    <p class="page-intro-eyebrow">{introEyebrow}</p>
+    <p>{introText}</p>
+  </div>
+) : null}
+
+<h2>{heading}</h2>
+
+<div class="timeline-list">
+  {entries.map((entry) => (
+    <article class="timeline-entry">
+      <div class="timeline-entry-header">
+        <h3>{entry.company}</h3>
+        <p class="timeline-role">{entry.role}</p>
+        <p class="timeline-period">{entry.period}</p>
+      </div>
+
+      {entry.summary.map((paragraph) => (
+        <p>{paragraph}</p>
+      ))}
+
+      {entry.sections?.map((section) => (
+        <Fragment>
+          <p class="timeline-meta-title">{section.title}</p>
+          <ul class:list={['timeline-chip-list', section.items.some((item) => item.href) && 'timeline-chip-list-links']}>
+            {section.items.map((item) => (
+              <li>
+                {item.href ? <a href={withLocalePrefix(locale, item.href)}>{item.label}</a> : item.label}
+              </li>
+            ))}
+          </ul>
+        </Fragment>
+      ))}
+    </article>
+  ))}
+</div>

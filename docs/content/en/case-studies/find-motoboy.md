@@ -166,4 +166,4 @@ Find Motoboy demonstrated how a well-designed backend architecture can support c
 
 ## Next Case Study
 
-[Back to Case Studies](../)
+[Back to Case Studies](/en/case-studies/)

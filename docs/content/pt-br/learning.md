@@ -142,8 +142,8 @@ Atualmente tenho dedicado parte dos meus estudos aos seguintes temas:
 
 Quer ver como esses conhecimentos são aplicados em projetos reais?
 
-[Estudos de Caso](../case-studies/)
+[Estudos de Caso](/pt-br/case-studies/)
 
 Ou conhecer os artigos técnicos onde compartilho pesquisas, aprendizados e experiências práticas?
 
-[Produção Técnica](../writing/)
+[Produção Técnica](/pt-br/writing/)

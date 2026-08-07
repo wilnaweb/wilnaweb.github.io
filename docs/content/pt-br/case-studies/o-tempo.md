@@ -163,12 +163,12 @@ O sucesso depende da compreensão do negócio, dos processos editoriais, da arqu
 
 ### Artigos
 
-- [Understanding Full-Text Search in AEM](../writing/#understanding-full-text-search-in-aem-how-lucene-really-works)
-- [Understanding AEM Index Naming and Versioning](../writing/#understanding-aem-index-naming-and-versioning)
-- [includedPaths vs queryPaths](../writing/#includedpaths-vs-querypaths-understanding-index-scope-in-aem)
-- [Adobe Edge Delivery Services: A Technical Perspective for Developers](../writing/#adobe-edge-delivery-services-a-technical-perspective-for-developers)
+- [Understanding Full-Text Search in AEM](/pt-br/writing/#understanding-full-text-search-in-aem-how-lucene-really-works)
+- [Understanding AEM Index Naming and Versioning](/pt-br/writing/#understanding-aem-index-naming-and-versioning)
+- [includedPaths vs queryPaths](/pt-br/writing/#includedpaths-vs-querypaths-understanding-index-scope-in-aem)
+- [Adobe Edge Delivery Services: A Technical Perspective for Developers](/pt-br/writing/#adobe-edge-delivery-services-a-technical-perspective-for-developers)
 
 
 ## Próximo Estudo de Caso
 
-[Palmeiras – Digital Assets](../palmeiras/)
+[Palmeiras – Digital Assets](/pt-br/case-studies/palmeiras/)

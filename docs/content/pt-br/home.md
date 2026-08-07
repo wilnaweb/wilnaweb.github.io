@@ -101,7 +101,7 @@ Compartilho conhecimento através de artigos técnicos sobre temas como:
 
 </div>
 
-[Leia todos os artigos](../writing/)
+[Leia todos os artigos](/pt-br/writing/)
 
 ## Tecnologias em Destaque
 
@@ -133,7 +133,7 @@ Mais de vinte anos de evolução contínua.
 
 Da programação web ao desenho de arquiteturas corporativas para grandes plataformas digitais baseadas em Adobe Experience Cloud.
 
-[Ver Linha do Tempo](../career/)
+[Ver Linha do Tempo](/pt-br/career/)
 
 ## Muito Além do Código
 
@@ -149,9 +149,9 @@ Se você procura um Arquiteto de Software, especialista em Adobe Experience Clou
 
 <div class="link-list-block">
 
-- [Conheça os estudos de caso](../case-studies/)
-- [Leia os artigos técnicos](../writing/)
-- [Entre em contato](../contact/)
+- [Conheça os estudos de caso](/pt-br/case-studies/)
+- [Leia os artigos técnicos](/pt-br/writing/)
+- [Entre em contato](/pt-br/contact/)
 
 </div>
 

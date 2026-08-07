@@ -69,7 +69,7 @@ Enterprise implementations across media, education and sports.
 
 Multiple technical articles covering AEM, Edge Delivery Services, Oak Indexes, Lucene and Cloud Architecture.
 
-[Explore Adobe Experience Cloud](../case-studies/)
+[Explore Adobe Experience Cloud](/en/case-studies/)
 
 </article>
 
@@ -94,7 +94,7 @@ Designing software that remains maintainable, scalable and aligned with business
 
 More than twenty years designing and evolving enterprise software solutions.
 
-[Explore Software Architecture](../case-studies/)
+[Explore Software Architecture](/en/case-studies/)
 
 </article>
 
@@ -120,7 +120,7 @@ Designing platforms that connect content, marketing and customer experience.
 - Cogna
 - Palmeiras
 
-[Explore Digital Experience Platforms](../case-studies/)
+[Explore Digital Experience Platforms](/en/case-studies/)
 
 </article>
 
@@ -139,7 +139,7 @@ Building reliable deployment pipelines and cloud-native platforms.
 - Deployment Pipelines
 - Performance Analysis
 
-[Explore Cloud Engineering](../case-studies/)
+[Explore Cloud Engineering](/en/case-studies/)
 
 </article>
 
@@ -162,7 +162,7 @@ A strong software architecture begins with solid engineering foundations.
 - Apache Sling
 - OSGi
 
-[Explore Backend Engineering](../case-studies/)
+[Explore Backend Engineering](/en/case-studies/)
 
 </article>
 
@@ -184,7 +184,7 @@ Building fast, maintainable and accessible digital experiences.
 - Accessibility
 - Performance Optimization
 
-[Explore Front-End Engineering](../case-studies/)
+[Explore Front-End Engineering](/en/case-studies/)
 
 </article>
 
@@ -206,7 +206,7 @@ Helping engineering teams build better software.
 - Scrum
 - Technical Planning
 
-[Explore Technical Leadership](../career/)
+[Explore Technical Leadership](/en/career/)
 
 </article>
 
@@ -227,7 +227,7 @@ Engineering knowledge becomes more valuable when it is shared.
 
 Knowledge sharing is part of my engineering practice.
 
-[Explore Technical Writing](../writing/)
+[Explore Technical Writing](/en/writing/)
 
 </article>
 
@@ -261,10 +261,10 @@ These areas continuously evolve together throughout every project.
 
 Want to see these technologies applied in real-world scenarios?
 
-[Explore Case Studies](../case-studies/)
+[Explore Case Studies](/en/case-studies/)
 
 Or learn how I approach complex engineering challenges.
 
-[Read Technical Articles](../writing/)
+[Read Technical Articles](/en/writing/)
 
 ---

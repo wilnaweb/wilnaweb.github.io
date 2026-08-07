@@ -38,7 +38,7 @@ Adobe Experience Manager as a Cloud Service, Edge Delivery Services, Universal E
 
 Migration of nearly two million news articles to a modern Adobe Experience Manager platform, enabling a new digital publishing experience for journalists and readers.
 
-[View Case Study](./case-studies/o-tempo/)
+[View Case Study](/en/case-studies/o-tempo/)
 
 </article>
 
@@ -65,7 +65,7 @@ Adobe Experience Manager Assets, Dynamic Media, Adobe Brand Portal, APIs, OSGi.
 
 Enterprise Digital Asset Management platform centralizing photos, videos and communication assets while enabling secure distribution to internal teams and media partners.
 
-[View Case Study](./case-studies/palmeiras/)
+[View Case Study](/en/case-studies/palmeiras/)
 
 </article>
 
@@ -92,7 +92,7 @@ Adobe Experience Manager Assets, Adobe Firefly, Generative AI, APIs.
 
 Automation platform capable of generating multiple marketing campaign variations from a single communication template using Adobe Firefly.
 
-[View Case Study](./case-studies/yduqs-firefly/)
+[View Case Study](/en/case-studies/yduqs-firefly/)
 
 </article>
 
@@ -119,7 +119,7 @@ Adobe Edge Delivery Services, Universal Editor, AEM as a Cloud Service.
 
 Development of a reusable landing page platform allowing marketing teams to launch campaigns quickly while maintaining governance, consistency and performance.
 
-[View Case Study](./case-studies/cogna-edge-delivery/)
+[View Case Study](/en/case-studies/cogna-edge-delivery/)
 
 </article>
 
@@ -146,7 +146,7 @@ PHP, WordPress, MySQL.
 
 Development of a corporate platform for publishing, managing and distributing financial reports, sustainability reports and mandatory corporate disclosures.
 
-[View Case Study](./case-studies/irani/)
+[View Case Study](/en/case-studies/irani/)
 
 </article>
 
@@ -172,7 +172,7 @@ WordPress, Google Analytics, Google Ad Manager, Cloud Infrastructure, CDN.
 
 Long-term evolution of one of Brazil's largest positive news platforms, focusing on scalability, performance, digital publishing and advertising operations.
 
-[View Case Study](./case-studies/razoes-para-acreditar/)
+[View Case Study](/en/case-studies/razoes-para-acreditar/)
 
 </article>
 
@@ -199,7 +199,7 @@ Software Architect • Tech Lead • Systems Analyst
 
 Architecture and development of one of Brazil's first on-demand motorcycle delivery platforms, including operational systems, APIs and administrative backoffice.
 
-[View Case Study](./case-studies/find-motoboy/)
+[View Case Study](/en/case-studies/find-motoboy/)
 
 </article>
 
@@ -221,8 +221,8 @@ Although each project belongs to a different industry, they share the same engin
 
 Interested in the technologies behind these projects?
 
-[Explore Expertise](../expertise/)
+[Explore Expertise](/en/expertise/)
 
 Want to learn more about my engineering approach?
 
-[Read Technical Articles](../writing/)
+[Read Technical Articles](/en/writing/)

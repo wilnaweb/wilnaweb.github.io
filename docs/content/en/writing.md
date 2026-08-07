@@ -345,10 +345,10 @@ Whenever I encounter an interesting technical challenge or identify knowledge th
 
 Interested in seeing these concepts applied in real projects?
 
-[Explore Case Studies](../case-studies/)
+[Explore Case Studies](/en/case-studies/)
 
 Want to know more about my technical background?
 
-[Explore Expertise](../expertise/)
+[Explore Expertise](/en/expertise/)
 
 ---

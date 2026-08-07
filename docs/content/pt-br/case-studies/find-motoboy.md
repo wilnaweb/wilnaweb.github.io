@@ -171,4 +171,4 @@ O Find Motoboy foi uma experiência importante na construção de plataformas tr
 
 ## Próximo Estudo de Caso
 
-[Voltar para Estudos de Caso](../)
+[Voltar para Estudos de Caso](/pt-br/case-studies/)

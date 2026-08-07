@@ -152,10 +152,10 @@ Investir em arquitetura, componentes reutilizáveis e governança permite aceler
 
 ### Artigos
 
-- [Adobe Edge Delivery Services: A Technical Perspective for Developers](../writing/#adobe-edge-delivery-services-a-technical-perspective-for-developers)
-- [CORS in AEM as a Cloud Service for GraphQL (POST): What the Documentation Doesn't Tell You](../writing/#cors-in-aem-as-a-cloud-service-for-graphql-post-what-the-documentation-doesnt-tell-you)
+- [Adobe Edge Delivery Services: A Technical Perspective for Developers](/pt-br/writing/#adobe-edge-delivery-services-a-technical-perspective-for-developers)
+- [CORS in AEM as a Cloud Service for GraphQL (POST): What the Documentation Doesn't Tell You](/pt-br/writing/#cors-in-aem-as-a-cloud-service-for-graphql-post-what-the-documentation-doesnt-tell-you)
 
 
 ## Próximo Estudo de Caso
 
-[Irani – Plataforma de Relatórios Corporativos](../irani/)
+[Irani – Plataforma de Relatórios Corporativos](/pt-br/case-studies/irani/)

@@ -38,7 +38,7 @@ Adobe Experience Manager as a Cloud Service, Edge Delivery Services, Universal E
 
 Migração de aproximadamente dois milhões de conteúdos para uma nova plataforma baseada em Adobe Experience Manager, modernizando todo o processo editorial e criando uma base sólida para a evolução digital do portal.
 
-[Ver Estudo de Caso](./case-studies/o-tempo/)
+[Ver Estudo de Caso](/pt-br/case-studies/o-tempo/)
 
 </article>
 
@@ -65,7 +65,7 @@ Adobe Experience Manager Assets, Dynamic Media, Adobe Brand Portal, APIs e OSGi.
 
 Implantação de uma plataforma corporativa para centralização, organização e distribuição segura de ativos digitais para diferentes áreas do clube e parceiros externos.
 
-[Ver Estudo de Caso](./case-studies/palmeiras/)
+[Ver Estudo de Caso](/pt-br/case-studies/palmeiras/)
 
 </article>
 
@@ -92,7 +92,7 @@ Adobe Experience Manager Assets, Adobe Firefly, APIs do Photoshop e Inteligênci
 
 Automação da geração de peças de comunicação a partir de modelos de campanha, permitindo criar dezenas de variações de forma rápida, padronizada e escalável.
 
-[Ver Estudo de Caso](./case-studies/yduqs-firefly/)
+[Ver Estudo de Caso](/pt-br/case-studies/yduqs-firefly/)
 
 </article>
 
@@ -119,7 +119,7 @@ Adobe Edge Delivery Services, Universal Editor e Adobe Experience Manager as a C
 
 Desenvolvimento de uma plataforma reutilizável para Landing Pages, acelerando a publicação de campanhas digitais através de componentes padronizados.
 
-[Ver Estudo de Caso](./case-studies/cogna-edge-delivery/)
+[Ver Estudo de Caso](/pt-br/case-studies/cogna-edge-delivery/)
 
 </article>
 
@@ -146,7 +146,7 @@ WordPress, PHP e MySQL.
 
 Desenvolvimento de uma plataforma para gerenciamento, publicação e distribuição de relatórios financeiros, relatórios de sustentabilidade e documentos corporativos.
 
-[Ver Estudo de Caso](./case-studies/irani/)
+[Ver Estudo de Caso](/pt-br/case-studies/irani/)
 
 </article>
 
@@ -173,7 +173,7 @@ WordPress, Google Analytics, Google Ad Manager, Infraestrutura em Nuvem e CDN.
 
 Evolução técnica contínua de uma das maiores plataformas brasileiras de conteúdo positivo, garantindo escalabilidade, performance e sustentação da operação por muitos anos.
 
-[Ver Estudo de Caso](./case-studies/razoes-para-acreditar/)
+[Ver Estudo de Caso](/pt-br/case-studies/razoes-para-acreditar/)
 
 </article>
 
@@ -200,7 +200,7 @@ Arquiteto de Software • Tech Lead • Analista de Sistemas
 
 Desenvolvimento completo da plataforma operacional, APIs e backoffice de uma das primeiras soluções brasileiras de entregas sob demanda.
 
-[Ver Estudo de Caso](./case-studies/find-motoboy/)
+[Ver Estudo de Caso](/pt-br/case-studies/find-motoboy/)
 
 </article>
 
@@ -222,8 +222,8 @@ Apesar de atenderem segmentos diferentes, todos esses projetos compartilham os m
 
 Quer conhecer em detalhes as tecnologias utilizadas nesses projetos?
 
-[Especialidades](../expertise/)
+[Especialidades](/pt-br/expertise/)
 
 Ou entender como essas soluções foram projetadas e implementadas?
 
-[Produção Técnica](../writing/)
+[Produção Técnica](/pt-br/writing/)

@@ -150,4 +150,4 @@ Well-designed CMS platforms can simplify complex business processes, improve gov
 
 ## Next Case Study
 
-[Razões Para Acreditar](../razoes-para-acreditar/)
+[Razões Para Acreditar](/en/case-studies/razoes-para-acreditar/)

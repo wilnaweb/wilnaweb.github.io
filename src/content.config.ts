@@ -50,6 +50,32 @@ const baseSchema = z.object({
       })
     )
     .optional(),
+  timelineIntroEyebrow: z.string().optional(),
+  timelineIntroText: z.string().optional(),
+  timelineHeading: z.string().optional(),
+  timeline: z
+    .array(
+      z.object({
+        company: z.string(),
+        role: z.string(),
+        period: z.string(),
+        summary: z.array(z.string()),
+        sections: z
+          .array(
+            z.object({
+              title: z.string(),
+              items: z.array(
+                z.object({
+                  label: z.string(),
+                  href: z.string().optional()
+                })
+              )
+            })
+          )
+          .optional()
+      })
+    )
+    .optional(),
   quickLinks: z
     .array(
       z.object({

@@ -146,4 +146,4 @@ Uma arquitetura bem planejada facilita processos internos, melhora a governança
 
 ## Próximo Estudo de Caso
 
-[Razões Para Acreditar](../razoes-para-acreditar/)
+[Razões Para Acreditar](/pt-br/case-studies/razoes-para-acreditar/)

@@ -104,7 +104,7 @@ I regularly publish technical articles covering topics such as:
 
 </div>
 
-[Read the complete collection](../writing/)
+[Read the complete collection](/en/writing/)
 
 
 ## Selected Technologies
@@ -138,7 +138,7 @@ More than twenty years of continuous evolution.
 
 From web development and enterprise software to leading architecture initiatives on enterprise-scale Adobe Experience Cloud implementations.
 
-[View Career Timeline](../career/)
+[View Career Timeline](/en/career/)
 
 
 ## Beyond Projects
@@ -156,9 +156,9 @@ Whether you're looking for a Software Architect, Adobe Experience Cloud speciali
 
 <div class="link-list-block">
 
-- [Explore the case studies](../case-studies/)
-- [Read the technical articles](../writing/)
-- [Get in touch](../contact/)
+- [Explore the case studies](/en/case-studies/)
+- [Read the technical articles](/en/writing/)
+- [Get in touch](/en/contact/)
 
 </div>
 

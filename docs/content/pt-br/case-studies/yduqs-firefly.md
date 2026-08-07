@@ -154,10 +154,10 @@ Mais do que gerar imagens, o projeto demonstrou como IA Generativa pode ser inco
 
 ### Artigos
 
-- [Are We Thinking About AI in Software Projects the Wrong Way?](../writing/#are-we-thinking-about-ai-in-software-projects-the-wrong-way)
-- [Adobe Edge Delivery Services: A Technical Perspective for Developers](../writing/#adobe-edge-delivery-services-a-technical-perspective-for-developers)
+- [Are We Thinking About AI in Software Projects the Wrong Way?](/pt-br/writing/#are-we-thinking-about-ai-in-software-projects-the-wrong-way)
+- [Adobe Edge Delivery Services: A Technical Perspective for Developers](/pt-br/writing/#adobe-edge-delivery-services-a-technical-perspective-for-developers)
 
 
 ## Próximo Estudo de Caso
 
-[Cogna – Plataforma Edge Delivery Services](../cogna-edge-delivery/)
+[Cogna – Plataforma Edge Delivery Services](/pt-br/case-studies/cogna-edge-delivery/)

@@ -154,10 +154,10 @@ By investing in architecture and reusable components, organizations reduce deliv
 
 ### Related Articles
 
-- [Adobe Edge Delivery Services: A Technical Perspective for Developers](../writing/#adobe-edge-delivery-services-a-technical-perspective-for-developers)
-- [CORS in AEM as a Cloud Service for GraphQL (POST): What the Documentation Doesn't Tell You](../writing/#cors-in-aem-as-a-cloud-service-for-graphql-post-what-the-documentation-doesnt-tell-you)
+- [Adobe Edge Delivery Services: A Technical Perspective for Developers](/en/writing/#adobe-edge-delivery-services-a-technical-perspective-for-developers)
+- [CORS in AEM as a Cloud Service for GraphQL (POST): What the Documentation Doesn't Tell You](/en/writing/#cors-in-aem-as-a-cloud-service-for-graphql-post-what-the-documentation-doesnt-tell-you)
 
 
 ## Next Case Study
 
-[Irani Financial Reports Platform](../irani/)
+[Irani Financial Reports Platform](/en/case-studies/irani/)

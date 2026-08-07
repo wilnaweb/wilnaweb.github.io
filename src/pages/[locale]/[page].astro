@@ -6,6 +6,7 @@ import { withLocalePrefix } from '../../lib/routing';
 import HeroSection from '../../components/HeroSection.astro';
 import CardGrid from '../../components/CardGrid.astro';
 import InfoCard from '../../components/InfoCard.astro';
+import CareerTimeline from '../../components/CareerTimeline.astro';
 
 export async function getStaticPaths() {
   const pages = await getCollection('pages');
@@ -49,6 +50,7 @@ const cardThemeByPage = {
 
 const cardVariant = cardThemeByPage[pageParam as keyof typeof cardThemeByPage] ?? 'default';
 const quickLinks = entry.data.quickLinks ?? [];
+const timelineEntries = entry.data.timeline ?? [];
 
 function isExternalHref(href: string): boolean {
   return /^(https?:\/\/|mailto:|tel:)/i.test(href);
@@ -66,6 +68,16 @@ function resolveHref(href: string): string {
     subtitle={entry.data.heroSubtitle}
     description={entry.data.heroDescription}
   />
+
+  {timelineEntries.length > 0 ? (
+    <CareerTimeline
+      locale={locale}
+      heading={entry.data.timelineHeading ?? (locale === 'pt-br' ? 'Linha do Tempo' : 'Timeline')}
+      introEyebrow={entry.data.timelineIntroEyebrow}
+      introText={entry.data.timelineIntroText}
+      entries={timelineEntries}
+    />
+  ) : null}
 
   <Content />
 

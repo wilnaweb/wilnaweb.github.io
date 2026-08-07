@@ -139,8 +139,8 @@ My current areas of exploration include:
 
 Interested in seeing how these technologies are applied in real-world projects?
 
-[Explore Case Studies](../case-studies/)
+[Explore Case Studies](/en/case-studies/)
 
 Or read the technical articles where I share practical experiences and engineering insights.
 
-[Explore Writing](../writing/)
+[Explore Writing](/en/writing/)

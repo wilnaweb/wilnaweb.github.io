@@ -173,4 +173,4 @@ Projetos de longa duração exigem disciplina, engenharia de software e evoluç�
 
 ## Próximo Estudo de Caso
 
-[Find Motoboy](../find-motoboy/)
+[Find Motoboy](/pt-br/case-studies/find-motoboy/)
