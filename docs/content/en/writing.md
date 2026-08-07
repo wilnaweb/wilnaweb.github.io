@@ -281,7 +281,7 @@ Managing Audit Logs in Adobe Experience Manager and keeping repositories healthy
 
 <article class="featured-article-card">
 
-<img class="featured-article-thumb" src="https://cdn-images-1.medium.com/fit/c/300/169/1*A2wncl78kgyJ0OLqyUFVYA.jpeg" alt="Thumbnail for AEMCS API Client Library in PHP" loading="lazy" />
+<img class="featured-article-thumb" src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*YcGCANxYTvTQiOEs8VonFw.png" alt="Thumbnail for AEMCS API Client Library in PHP" loading="lazy" />
 
 ### AEMCS API Client Library in PHP — Making AEM Assets Integration Easier
 
@@ -295,13 +295,13 @@ Managing Audit Logs in Adobe Experience Manager and keeping repositories healthy
 
 An open-source PHP library designed to simplify integrations with Adobe Experience Manager Assets Cloud Service.
 
-<p class="featured-article-cta"><a href="https://medium.com/@wilsoncavalcante" target="_blank" rel="noreferrer" aria-label="Open article: AEMCS API Client Library in PHP">Read more</a></p>
+<p class="featured-article-cta"><a href="https://medium.com/@wilsoncavalcante/aemcs-api-client-library-in-php-making-aem-assets-integration-easier-9b317e37fcd7" target="_blank" rel="noreferrer" aria-label="Open article: AEMCS API Client Library in PHP">Read more</a></p>
 
 </article>
 
 <article class="featured-article-card">
 
-<img class="featured-article-thumb" src="https://cdn-images-1.medium.com/fit/c/300/169/1*A2wncl78kgyJ0OLqyUFVYA.jpeg" alt="Thumbnail for How to Use a Static IP Proxy in AEM as a Cloud Service" loading="lazy" />
+<img class="featured-article-thumb" src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*jdhYEhEP38KQgMYUJQTrKw.png" alt="Thumbnail for How to Use a Static IP Proxy in AEM as a Cloud Service" loading="lazy" />
 
 ### How to Use a Static IP Proxy in AEM as a Cloud Service
 
@@ -317,7 +317,7 @@ An open-source PHP library designed to simplify integrations with Adobe Experien
 
 Implementing secure outbound integrations using Adobe's networking capabilities.
 
-<p class="featured-article-cta"><a href="https://medium.com/@wilsoncavalcante" target="_blank" rel="noreferrer" aria-label="Open article: How to Use a Static IP Proxy in AEM as a Cloud Service">Read more</a></p>
+<p class="featured-article-cta"><a href="https://medium.com/@wilsoncavalcante/how-to-use-a-static-ip-proxy-in-aem-as-a-cloud-service-d9ceb82a35ca" target="_blank" rel="noreferrer" aria-label="Open article: How to Use a Static IP Proxy in AEM as a Cloud Service">Read more</a></p>
 
 </article>
 

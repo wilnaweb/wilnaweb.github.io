@@ -281,7 +281,7 @@ Como administrar o Audit Log do Adobe Experience Manager e manter ambientes mais
 
 <article class="featured-article-card">
 
-<img class="featured-article-thumb" src="https://cdn-images-1.medium.com/fit/c/300/169/1*A2wncl78kgyJ0OLqyUFVYA.jpeg" alt="Thumbnail for AEMCS API Client Library in PHP" loading="lazy" />
+<img class="featured-article-thumb" src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*YcGCANxYTvTQiOEs8VonFw.png" alt="Thumbnail for AEMCS API Client Library in PHP" loading="lazy" />
 
 ### AEMCS API Client Library in PHP — Making AEM Assets Integration Easier
 
@@ -295,13 +295,13 @@ Como administrar o Audit Log do Adobe Experience Manager e manter ambientes mais
 
 Biblioteca Open Source em PHP criada para simplificar integrações com Adobe Experience Manager Assets Cloud Service.
 
-<p class="featured-article-cta"><a href="https://medium.com/@wilsoncavalcante" target="_blank" rel="noreferrer" aria-label="Abrir artigo: AEMCS API Client Library in PHP">Ler artigo</a></p>
+<p class="featured-article-cta"><a href="https://medium.com/@wilsoncavalcante/aemcs-api-client-library-in-php-making-aem-assets-integration-easier-9b317e37fcd7" target="_blank" rel="noreferrer" aria-label="Open article: AEMCS API Client Library in PHP">Ler artigo</a></p>
 
 </article>
 
 <article class="featured-article-card">
 
-<img class="featured-article-thumb" src="https://cdn-images-1.medium.com/fit/c/300/169/1*A2wncl78kgyJ0OLqyUFVYA.jpeg" alt="Thumbnail for How to Use a Static IP Proxy in AEM as a Cloud Service" loading="lazy" />
+<img class="featured-article-thumb" src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*jdhYEhEP38KQgMYUJQTrKw.png" alt="Thumbnail for How to Use a Static IP Proxy in AEM as a Cloud Service" loading="lazy" />
 
 ### How to Use a Static IP Proxy in AEM as a Cloud Service
 
@@ -317,7 +317,7 @@ Biblioteca Open Source em PHP criada para simplificar integrações com Adobe Ex
 
 Como utilizar um Proxy com IP fixo para integrações entre Adobe Experience Manager Cloud Service e APIs externas.
 
-<p class="featured-article-cta"><a href="https://medium.com/@wilsoncavalcante" target="_blank" rel="noreferrer" aria-label="Abrir artigo: How to Use a Static IP Proxy in AEM as a Cloud Service">Ler artigo</a></p>
+<p class="featured-article-cta"><a href="https://medium.com/@wilsoncavalcante/how-to-use-a-static-ip-proxy-in-aem-as-a-cloud-service-d9ceb82a35ca" target="_blank" rel="noreferrer" aria-label="Open article: How to Use a Static IP Proxy in AEM as a Cloud Service">Ler artigo</a></p>
 
 </article>
 
