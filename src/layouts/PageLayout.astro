@@ -18,6 +18,7 @@ const isHome = pathname === '/en/' || pathname === '/pt-br/';
 <Layout title={title} description={description} locale={locale} pathname={pathname}>
   <div class="mx-auto w-full max-w-[1200px]">
     <SiteHeader locale={locale} pathname={pathname} />
+    <div class="h-[var(--site-header-height,5rem)] md:hidden" aria-hidden="true"></div>
 
     <article class:list={['content-shell', isHome && 'content-shell-home']}>
       <slot />

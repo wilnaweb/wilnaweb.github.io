@@ -13,10 +13,20 @@ const { locale, pathname } = Astro.props;
 const copy = getLocaleCopy(locale);
 ---
 
-<header class="sticky top-0 z-10 -mx-5 mb-10 border-b border-[var(--color-border)] bg-[color-mix(in_srgb,var(--color-background)_88%,transparent)] px-5 py-4 backdrop-blur md:-mx-8 md:px-8">
+<header data-site-header class="fixed inset-x-0 top-0 z-30 border-b border-[var(--color-border)] bg-[color-mix(in_srgb,var(--color-background)_88%,transparent)] px-5 py-4 backdrop-blur md:sticky md:z-10 md:-mx-8 md:mb-10 md:px-8">
   <div class="mx-auto flex w-full max-w-[1200px] items-center justify-between gap-4">
-    <a href={withLocalePrefix(locale, '/')} class="text-sm font-semibold tracking-[0.16em] text-[var(--color-text-primary)]">
-      WIL.DEV
+    <a href={withLocalePrefix(locale, '/')} class="inline-flex items-center" aria-label="WIL.DEV">
+      <img
+        src="/wordmark-transparent-white.png"
+        alt="WIL.DEV"
+        width="360"
+        height="80"
+        class="h-6 w-auto max-w-[9.5rem]"
+        decoding="async"
+        loading="eager"
+        onerror="this.style.display='none'; this.nextElementSibling.style.display='inline';"
+      />
+      <span class="hidden text-sm font-semibold tracking-[0.16em] text-[var(--color-text-primary)]">WIL.DEV</span>
     </a>
 
     <nav aria-label="Primary" class="hidden items-center gap-6 md:flex">
@@ -35,22 +45,87 @@ const copy = getLocaleCopy(locale);
       ))}
     </nav>
 
-    <LanguageSwitcher locale={locale} pathname={pathname} />
-  </div>
+    <div class="flex items-center gap-3">
+      <LanguageSwitcher locale={locale} pathname={pathname} />
 
-  <nav aria-label="Primary mobile" class="mt-4 flex flex-wrap items-center gap-3 md:hidden">
-    {copy.nav.map((item) => (
-      <a
-        href={withLocalePrefix(locale, item.href)}
-        class:list={[
-          'rounded-full border px-3 py-1 text-xs transition-colors duration-200',
-          isRouteActive(pathname, locale, item.href)
-            ? 'border-[var(--color-accent)] text-[var(--color-text-primary)]'
-            : 'border-[var(--color-border)] text-[var(--color-text-secondary)] hover:text-[var(--color-text-primary)]'
-        ]}
-      >
-        {item.label}
-      </a>
-    ))}
-  </nav>
+      <details class="mobile-menu relative md:hidden">
+        <summary
+          class="mobile-menu-trigger inline-flex h-9 w-9 cursor-pointer list-none items-center justify-center rounded-md border border-[var(--color-border)] bg-[color-mix(in_srgb,var(--color-surface)_88%,transparent)] text-[var(--color-text-primary)] transition-colors duration-200 hover:border-[var(--color-accent)]"
+          aria-label={locale === 'pt-br' ? 'Abrir menu principal' : 'Open primary menu'}
+        >
+          <span class="sr-only">{locale === 'pt-br' ? 'Menu principal' : 'Primary menu'}</span>
+          <span class="mobile-menu-icon" aria-hidden="true">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </summary>
+
+        <nav
+          aria-label="Primary mobile"
+          class="absolute right-0 top-[calc(100%+0.55rem)] z-20 flex w-[min(84vw,18rem)] flex-col gap-1.5 rounded-xl border border-[var(--color-border)] bg-[color-mix(in_srgb,var(--color-surface)_92%,transparent)] p-2 shadow-[0_16px_40px_color-mix(in_srgb,#020617_35%,transparent)]"
+        >
+          {copy.nav.map((item) => (
+            <a
+              href={withLocalePrefix(locale, item.href)}
+              class:list={[
+                'rounded-lg px-3 py-2 text-sm transition-colors duration-200',
+                isRouteActive(pathname, locale, item.href)
+                  ? 'bg-[color-mix(in_srgb,var(--color-accent)_20%,transparent)] text-[var(--color-text-primary)]'
+                  : 'text-[var(--color-text-secondary)] hover:bg-[color-mix(in_srgb,var(--color-surface-elevated)_68%,transparent)] hover:text-[var(--color-text-primary)]'
+              ]}
+            >
+              {item.label}
+            </a>
+          ))}
+        </nav>
+      </details>
+    </div>
+  </div>
 </header>
+
+<style>
+  .mobile-menu summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .mobile-menu-icon {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 0.22rem;
+  }
+
+  .mobile-menu-icon span {
+    width: 1rem;
+    height: 2px;
+    border-radius: 999px;
+    background-color: currentColor;
+    transition: transform 180ms ease, opacity 180ms ease;
+  }
+
+  .mobile-menu[open] .mobile-menu-icon span:nth-child(1) {
+    transform: translateY(0.36rem) rotate(45deg);
+  }
+
+  .mobile-menu[open] .mobile-menu-icon span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .mobile-menu[open] .mobile-menu-icon span:nth-child(3) {
+    transform: translateY(-0.36rem) rotate(-45deg);
+  }
+</style>
+
+<script>
+  const applyHeaderHeight = () => {
+    const header = document.querySelector('[data-site-header]');
+    if (!(header instanceof HTMLElement)) {
+      return;
+    }
+
+    document.documentElement.style.setProperty('--site-header-height', `${header.offsetHeight}px`);
+  };
+
+  applyHeaderHeight();
+  window.addEventListener('resize', applyHeaderHeight);
+</script>
