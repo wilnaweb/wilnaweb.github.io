@@ -5,6 +5,39 @@
 	--font-mono: "IBM Plex Mono", "JetBrains Mono", "SFMono-Regular", monospace;
 }
 
+/* Allow manual theme override via `data-theme` on the <html> element */
+:root[data-theme="dark"], html[data-theme="dark"] {
+	--color-background: #0b1120;
+	--color-surface: #111827;
+	--color-surface-elevated: #1f2937;
+	--color-border: #374151;
+	--color-border-muted: #475569;
+	--color-text-primary: #f8fafc;
+	--color-text-secondary: #cbd5e1;
+	--color-text-muted: #94a3b8;
+	--color-accent: #2563eb;
+	--color-accent-hover: #1d4ed8;
+	--color-success: #16a34a;
+	--color-info: #0284c7;
+	--color-focus: #60a5fa;
+}
+
+:root[data-theme="light"], html[data-theme="light"] {
+	--color-background: #f8fafc;
+	--color-surface: #ffffff;
+	--color-surface-elevated: #f1f5f9;
+	--color-border: #cbd5e1;
+	--color-border-muted: #94a3b8;
+	--color-text-primary: #0f172a;
+	--color-text-secondary: #334155;
+	--color-text-muted: #64748b;
+	--color-accent: #1d4ed8;
+	--color-accent-hover: #1e40af;
+	--color-success: #15803d;
+	--color-info: #0369a1;
+	--color-focus: #1d4ed8;
+}
+
 :root {
 	color-scheme: dark light;
 
@@ -18,6 +51,7 @@
 	--color-text-muted: #94a3b8;
 	--color-accent: #2563eb;
 	--color-accent-hover: #1d4ed8;
+	--color-on-accent: #ffffff;
 	--color-success: #16a34a;
 	--color-info: #0284c7;
 	--color-focus: #60a5fa;
@@ -37,6 +71,20 @@
 	--font-h1: clamp(2rem, 1.4rem + 2vw, 3.2rem);
 	--font-h2: clamp(1.5rem, 1.2rem + 1.2vw, 2.2rem);
 	--font-h3: clamp(1.25rem, 1.1rem + 0.6vw, 1.55rem);
+}
+
+/* Ensure primary (blue) CTA buttons have readable text on all themes */
+.cta-primary {
+	color: var(--color-on-accent) !important;
+}
+
+.cta-primary svg {
+	color: inherit;
+}
+
+/* Generic helper for elements placed on top of accent backgrounds */
+.on-accent {
+	color: var(--color-on-accent) !important;
 }
 
 html,

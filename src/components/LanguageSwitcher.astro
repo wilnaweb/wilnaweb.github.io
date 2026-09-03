@@ -20,7 +20,7 @@ const labels: Record<Locale, string> = {
     href={replaceLocaleInPath(pathname, 'en')}
     class:list={[
       'rounded-full px-3 py-1 transition-colors duration-200',
-      locale === 'en' ? 'bg-[var(--color-accent)] text-white' : 'text-[var(--color-text-secondary)] hover:text-[var(--color-text-primary)]'
+      locale === 'en' ? 'bg-[var(--color-accent)] on-accent' : 'text-[var(--color-text-secondary)] hover:text-[var(--color-text-primary)]'
     ]}
     hreflang="en"
     lang="en"
@@ -31,7 +31,7 @@ const labels: Record<Locale, string> = {
     href={replaceLocaleInPath(pathname, 'pt-br')}
     class:list={[
       'rounded-full px-3 py-1 transition-colors duration-200',
-      locale === 'pt-br' ? 'bg-[var(--color-accent)] text-white' : 'text-[var(--color-text-secondary)] hover:text-[var(--color-text-primary)]'
+      locale === 'pt-br' ? 'bg-[var(--color-accent)] on-accent' : 'text-[var(--color-text-secondary)] hover:text-[var(--color-text-primary)]'
     ]}
     hreflang="pt-BR"
     lang="pt-BR"

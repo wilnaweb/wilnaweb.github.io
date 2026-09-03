@@ -60,7 +60,8 @@ function getIconPath() {
     'hover:-translate-y-px active:translate-y-0',
     'shadow-[inset_0_0_0_1px_color-mix(in_srgb,var(--color-text-primary)_10%,transparent)]',
     'focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--color-focus)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--color-background)]',
-    variantClass
+    variantClass,
+    variant === 'primary' ? 'cta-primary' : null
   ]}
 >
   <span>{label}</span>
