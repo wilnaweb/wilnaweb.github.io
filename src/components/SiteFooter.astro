@@ -57,19 +57,27 @@ const currentYear = new Date().getFullYear();
     <div class="flex items-center gap-2">
       <p>© {currentYear}</p>
       <a href={withLocalePrefix(locale, '/')} class="inline-flex items-center" aria-label="WIL.DEV">
-        <img
-          src="/wordmark-transparent-white.png"
-          alt="WIL.DEV"
-          width="360"
-          height="80"
-          class="h-5 w-auto max-w-[8.5rem]"
-          decoding="async"
-          loading="lazy"
-          onerror="this.style.display='none'; this.nextElementSibling.style.display='inline';"
-        />
+        <picture class="h-5 w-auto max-w-[8.5rem]">
+          <source srcset="/wordmark-transparent.png" media="(prefers-color-scheme: light)" />
+          <img
+            id="site-wordmark-footer"
+            src="/wordmark-transparent-white.png"
+            alt="WIL.DEV"
+            width="360"
+            height="80"
+            class="h-5 w-auto max-w-[8.5rem]"
+            decoding="async"
+            loading="lazy"
+            onerror="this.style.display='none'; this.nextElementSibling.style.display='inline';"
+          />
+        </picture>
         <span class="hidden text-xs font-semibold tracking-[0.14em] text-[var(--color-text-primary)]">WIL.DEV</span>
       </a>
     </div>
     <p>v1.0.0</p>
   </div>
 </footer>
+
+<script>
+  // Theme logo handled by shared script (initialized in Layout)
+</script>

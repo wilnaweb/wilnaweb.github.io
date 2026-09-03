@@ -50,6 +50,8 @@ const schemaPayload = {
     <!-- Google Tag Manager -->
     <script set:html={`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-NKJXKFL2');`}></script>
     <!-- End Google Tag Manager -->
+    <link rel="preload" as="image" href="/wordmark-transparent-white.png" media="(prefers-color-scheme: dark)">
+    <link rel="preload" as="image" href="/wordmark-transparent.png" media="(prefers-color-scheme: light)">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
@@ -86,5 +88,14 @@ const schemaPayload = {
     <main class="relative mx-auto min-h-screen w-full px-5 py-8 md:px-8 md:py-12">
       <slot />
     </main>
+    <script type="module" src="/js/theme-logo.js"></script>
+    <script>
+      if (window && window.themeLogoInit) {
+        window.themeLogoInit([
+          { id: 'site-wordmark', light: '/wordmark-transparent.png', dark: '/wordmark-transparent-white.png' },
+          { id: 'site-wordmark-footer', light: '/wordmark-transparent.png', dark: '/wordmark-transparent-white.png' }
+        ]);
+      }
+    </script>
   </body>
 </html>
